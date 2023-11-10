@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        /*Realiza un ordinograma que implemente el siguiente algoritmo:
+        se lee una cara de usnado (de 1 a 6),muestra que no es un número correcto si el número
+        es mayor a 6 o menor que 1 y si el número es válido escribe por pantalla
+        la cara opuesta del dado*/
+        //Realiza el ejercicio sabiendo que las caras contrarias suman 7
+        var cara = prompt("Introduce la cara de un dado", "");
+        if(cara < 1 || cara > 6) {
+            alert("Numero incorrecto");
+        } else {
+            var contraria = 7 - cara;
+            alert("La cara contraria es " + contraria);
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
