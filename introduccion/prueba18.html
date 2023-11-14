@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type="text/javascript">
+        /*Introduce 2 números y que te diga cual es mayor utilizando la función parseInt y document.write*/
+        var d1, d2;
+        d1 = window.prompt("Dime un numero", "");
+        d2 = window.prompt("Dime ootro numero", "");
+        var n1, n2;
+        n1 = parseInt(d1);
+        n2 = parseInt(d2);
+        if(n1 > n2) {
+            document.write(`Los numeros son ${n1} y ${n2}. El numero mayor es ${n1}`);
+        } else if(n2 > n1) {
+            document.write(`Los numeros son ${n1} y ${n2}. El numero mayor es ${n2}`);
+        } else {
+            document.write(`Los numeros son ${n1} y ${n2}. Los numeros son iguales.`);
+        }
+    </script>
 </head>
 <body>
     
