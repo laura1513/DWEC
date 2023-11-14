@@ -1,7 +1,7 @@
 # DWEC
-# INTRODUCCION:
-  # prueba 1: Pide tu nombre y muestralo por pantalla
-  # prueba 2: Genera una declaracion explicita con valor y muestrala en la pantalla
+INTRODUCCION:
+  prueba 1: Pide tu nombre y muestralo por pantalla
+  prueba 2: Genera una declaracion explicita con valor y muestrala en la pantalla
             Genera una declaracion explicita multiple dandole valor a ellas
   prueba 3: Declaración de la misma variable dos veces
   prueba 4: Calcula el area del circulo con let, var o const
