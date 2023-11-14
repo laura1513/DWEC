@@ -26,4 +26,4 @@
   <b>prueba 17</b>: parseInt(valor) y document.wirte(valor)<br>
   <b>prueba 18</b>: Introduce 2 números y que te diga cual es mayor utilizando la función parseInt y document.write<br>
   <b>prueba 19</b>: Muestra el resultado de sumar, restar, multiplicar y dividir utilizando operadores abreviados<br>
-  <b>prueba 20</b>: 
+  <b>prueba 20</b>: Crea una variable booleana utilizando =, crea otra variable e invierte su valor utilizando el operador NO
