@@ -1,8 +1,7 @@
 # DWEC
 ## INTRODUCCION:<br>
   <b>prueba 1</b>: Pide tu nombre y muestralo por pantalla<br>
-  <b>prueba 2</b>: Genera una declaracion explicita con valor y muestrala en la pantalla<br>
-            Genera una declaracion explicita multiple dandole valor a ellas<br>
+  <b>prueba 2</b>: Genera una declaracion explicita con valor y muestrala en la pantalla. Genera una declaracion explicita multiple dandole valor a ellas<br>
   <b>prueba 3</b>: Declaración de la misma variable dos veces<br>
   <b>prueba 4</b>: Calcula el area del circulo con let, var o const<br>
   <b>prueba 5</b>: Diferencia entre e y E<br>
@@ -20,7 +19,7 @@
              \n, \", \\, \t, \r y comprueba su resultado<br>
   <b>prueba 13</b>: Realiza un programa que calcule el área de un cilindro leyendo los
              parametros de radio es 5m y la altura 10m<br>
-  <b>prueba 4</b>: Comprueba con console.log todos los valores que puede tomar
+  <b>prueba 14</b>: Comprueba con console.log todos los valores que puede tomar
              una variable, p.e. undefined, Null, Numerico, infinito, -infinito<br>
   <b>prueba 15</b>: Declara una variable que lea por pantalla y muestre su valor con incermento y decremento<br>
   <b>prueba 16</b>: Declara una variable que te muestre su valor del resto<br>
