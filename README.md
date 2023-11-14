@@ -12,7 +12,7 @@
             la cara opuesta del dado<br>
   <b>prueba 8</b>: Realiza el ejercicio anterior sabiendo que las caras contrarias suman 7<br>
   <b>prueba 9</b>: Lee dos numeros en javascript, que muestre por pantalla los
-            números leíso. Después si el numero 1 es mayor que 2 que muestre el 1 y si  no que muestre el 2<br>
+            números leído. Después muestra el número mayor<br>
   <b>prueba 10</b>: Declara una variable tipo cadena<br>
   <b>prueba 11</b>: Muestra el valor por consola de un texto<br>
   <b>prueba 12</b>: Utliza los caracteres especiales utilizando el console.log
