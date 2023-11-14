@@ -29,5 +29,7 @@
   <b>prueba 20</b>: Crea una variable booleana utilizando =, crea otra variable e invierte su valor utilizando el operador NO<br>
   <b>prueba 21</b>: Comprueba por pantalla este operador AND con F/F,F/T,T/T<br>
   <b>prueba 22</b>: Di los valores de z<br>
-  <b>prueba 23</b>: Realiza la programación con una clase que muestre por pantalla las siguientes operaciones y sus resultados
-  <b>prueba 24</b>: Realiza un prigrama que muestre por console.log si es mayor de edad o no
+  <b>prueba 23</b>: Realiza la programación con una clase que muestre por pantalla las siguientes operaciones y sus resultados<br>
+  <b>prueba 24</b>: Realiza un prigrama que muestre por console.log si es mayor de edad o no<br>
+  <b>pruena 25</b>: Realiza un programa anidando sentencias if-else dentro de otras, que te lea el precio de un café. Si vale 1 euro que te muestre que es barato
+                    y salga del bucle, si el precio es menor de 1.5 que te escriba por pantalla "normal" y sino "caro". El problema se tiene que realizar con 2 bucles if-else
