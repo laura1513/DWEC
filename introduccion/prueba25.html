@@ -8,13 +8,15 @@
         /*Realiza un programa anidando sentencias if-else dentro de otras, que te lea el precio de un café. Si vale 1 euro que te muestre que es barato
         y salga del bucle, si el precio es menor de 1.5 que te escriba por pantalla "normal" y sino "caro". El problema se tiene que realizar con 2 bucles if-else*/
         var precio = window.prompt("Introduce el precio del café", "");
-        var p = parseFloat(p);
-        if (p <= 1) {
+        var p = parseFloat(precio);
+        if (p > 1) {
+            if (p < 1.5) {
+                alert("normal");
+            } else {
+                alert("caro")
+            }
+        } else {
             alert("barato");
-        } else if (p >= 1 && p <= 1.5){
-            alert("normal");
-        } else if (p > 1.5) {
-            alert("caro")
         }
     </script>
 </head>
