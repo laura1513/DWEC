@@ -24,3 +24,4 @@
   <b>prueba 15</b>: Declara una variable que lea por pantalla y muestre su valor con incermento y decremento<br>
   <b>prueba 16</b>: Declara una variable que te muestre su valor del resto<br>
   <b>prueba 17</b>: parseInt(valor) y document.wirte(valor)<br>
+  <b>prueba 18</b>; Introduce 2 números y que te diga cual es mayor utilizando la función parseInt y document.write
