@@ -25,3 +25,4 @@
   <b>prueba 16</b>: Declara una variable que te muestre su valor del resto<br>
   <b>prueba 17</b>: parseInt(valor) y document.wirte(valor)<br>
   <b>prueba 18</b>: Introduce 2 números y que te diga cual es mayor utilizando la función parseInt y document.write
+  <b>prueba 19</b>: Muestra el resultado de sumar, restar, multiplicar y dividir utilizando operadores abreviados
