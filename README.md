@@ -30,3 +30,4 @@
   <b>prueba 21</b>: Comprueba por pantalla este operador AND con F/F,F/T,T/T<br>
   <b>prueba 22</b>: Di los valores de z<br>
   <b>prueba 23</b>: Realiza la programación con una clase que muestre por pantalla las siguientes operaciones y sus resultados
+  <b>prueba 24</b>: Realiza un prigrama que muestre por console.log si es mayor de edad o no
