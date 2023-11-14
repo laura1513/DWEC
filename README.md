@@ -32,4 +32,5 @@
   <b>prueba 23</b>: Realiza la programación con una clase que muestre por pantalla las siguientes operaciones y sus resultados<br>
   <b>prueba 24</b>: Realiza un prigrama que muestre por console.log si es mayor de edad o no<br>
   <b>pruena 25</b>: Realiza un programa anidando sentencias if-else dentro de otras, que te lea el precio de un café. Si vale 1 euro que te muestre que es barato
-                    y salga del bucle, si el precio es menor de 1.5 que te escriba por pantalla "normal" y sino "caro". El problema se tiene que realizar con 2 bucles if-else
+  y salga del bucle, si el precio es menor de 1.5 que te escriba por pantalla "normal" y sino "caro". El problema se tiene que realizar con 2 bucles if-else
+  <b>prueba 26</b>: Realiza un programa que lea tres notas de un alumno, calcula la media e indica si está suspendido o aprobado, (nota media mayor o igual a 5). Usar parseInt.
