@@ -28,4 +28,5 @@
   <b>prueba 19</b>: Muestra el resultado de sumar, restar, multiplicar y dividir utilizando operadores abreviados<br>
   <b>prueba 20</b>: Crea una variable booleana utilizando =, crea otra variable e invierte su valor utilizando el operador NO<br>
   <b>prueba 21</b>: Comprueba por pantalla este operador AND con F/F,F/T,T/T<br>
-  <b>prueba 22</b>: Di los valores de z
+  <b>prueba 22</b>: Di los valores de z<br>
+  <b>prueba 23</b>: Realiza la programación con una clase que muestre por pantalla las siguientes operaciones y sus resultados
