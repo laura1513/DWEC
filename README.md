@@ -1,17 +1,17 @@
 # DWEC
 <a href="https://github.com/laura1513/DWEC/tree/master/introduccion">INTRODUCCION</a><br>
-  <b>prueba 1</b>: Pide tu nombre y muestralo por pantalla<br>
-  <b>prueba 2</b>: Genera una declaracion explicita con valor y muestrala en la pantalla. Genera una declaracion explicita multiple dandole valor a ellas<br>
-  <b>prueba 3</b>: Declaración de la misma variable dos veces<br>
-  <b>prueba 4</b>: Calcula el area del circulo con let, var o const<br>
-  <b>prueba 5</b>: Diferencia entre e y E<br>
-  <b>prueba 6</b>: Escribe el numero 10 en base 8 y en base 16 y sumalo<br>
- <b>prueba 7</b>: Realiza un ordinograma que implemente el siguiente algoritmo:
+  <a href="https://github.com/laura1513/DWEC/blob/master/introduccion/prueba1.html">prueba 1</a>: Pide tu nombre y muestralo por pantalla<br>
+  <a href="https://github.com/laura1513/DWEC/blob/master/introduccion/prueba2.html">prueba 2</a>: Genera una declaracion explicita con valor y muestrala en la pantalla. Genera una declaracion explicita multiple dandole valor a ellas<br>
+  <a href="https://github.com/laura1513/DWEC/blob/master/introduccion/prueba3.html">prueba 3</a>: Declaración de la misma variable dos veces<br>
+  <a href="https://github.com/laura1513/DWEC/blob/master/introduccion/prueba4.html">prueba 4</a>: Calcula el area del circulo con let, var o const<br>
+  <a href="https://github.com/laura1513/DWEC/blob/master/introduccion/prueba5.html">prueba 5</a>: Diferencia entre e y E<br>
+  <a href="https://github.com/laura1513/DWEC/blob/master/introduccion/prueba6.html">prueba 6</a>: Escribe el numero 10 en base 8 y en base 16 y sumalo<br>
+  <a href="https://github.com/laura1513/DWEC/blob/master/introduccion/prueba7.html">prueba 7</a>: Realiza un ordinograma que implemente el siguiente algoritmo:
             se lee una cara de undado (de 1 a 6),muestra que no es un número correcto si el número
             es mayor a 6 o menor que 1 y si el número es válido escribe por pantalla
             la cara opuesta del dado<br>
-  <b>prueba 8</b>: Realiza el ejercicio anterior sabiendo que las caras contrarias suman 7<br>
-  <b>prueba 9</b>: Lee dos numeros en javascript, que muestre por pantalla los
+  <a href="https://github.com/laura1513/DWEC/blob/master/introduccion/prueba8.html">prueba 8</a>: Realiza el ejercicio anterior sabiendo que las caras contrarias suman 7<br>
+  <a href="https://github.com/laura1513/DWEC/blob/master/introduccion/prueba9.html">prueba 9</a>: Lee dos numeros en javascript, que muestre por pantalla los
             números leído. Después muestra el número mayor<br>
   <b>prueba 10</b>: Declara una variable tipo cadena<br>
   <b>prueba 11</b>: Muestra el valor por consola de un texto<br>
