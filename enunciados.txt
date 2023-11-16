@@ -57,3 +57,5 @@ TEMA 2
 actividad 1: Comprueba estos valores y di el valor de z.
 
 actividad 2: Comprueba el valor de x.
+
+actividad 3: Comprueba el valor de z.
