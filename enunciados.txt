@@ -53,6 +53,8 @@ prueba 26: Realiza un programa que lea tres notas de un alumno, calcula la media
 
 prueba 27: Si el coche a la venta es un Ford Fiesta, el descuento es de un 5%. Si el coche a la venta es un Ford Focus, el descuento es del 10%. El usuario introduce la marca y el modelo y el programa saca el descuento correspondiente por pantalla (utiliza document.write)
 
+prueba 28: Realiza un programa que utilizando la sentencia switch-case que te lea un valor del semáforo, en caso de verde que muestre por consola "adelante", rojo "stop" y ambar "precaución"
+
 TEMA 2
 actividad 1: Comprueba estos valores y di el valor de z.
 
