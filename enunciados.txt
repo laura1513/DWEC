@@ -55,7 +55,7 @@ prueba 27: Si el coche a la venta es un Ford Fiesta, el descuento es de un 5%. S
 
 prueba 28: Realiza un programa que utilizando la sentencia switch-case que te lea un valor del semáforo, en caso de verde que muestre por consola "adelante", rojo "stop" y ambar "precaución"
 
-prueba 29: Prueba este código y comprueba su funcionamiento
+prueba 29: Prueba este código y comprueba su funcionamiento (while y do-while)
 
 TEMA 2
 actividad 1: Comprueba estos valores y di el valor de z.
