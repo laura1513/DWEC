@@ -59,6 +59,8 @@ prueba 29: Prueba este código y comprueba su funcionamiento (while y do-while)
 
 prueba 30: Realiza un bucle for que te lea un numero menor que 10, y que muestre por pantalla el numero
 
+prueba 31: Realiza un bucle que te lea un numero y te diga si es primo o no
+
 TEMA 2
 actividad 1: Comprueba estos valores y di el valor de z.
 
