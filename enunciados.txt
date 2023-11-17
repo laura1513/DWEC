@@ -65,6 +65,8 @@ prueba 32: Introduce 5 numeros, calcular la suma de todos ellos. Decir cuantos d
 
 prueba 33: Realiza un programa que no lea por pantalla valores incorrectos. Mientras que el valor sea <10 debe leer por pantalla. Utiliza parseInt y document.write para escribir en la página web todos los valores leídos
 
+prueba 34: Realizar un programa
+
 TEMA 2
 actividad 1: Comprueba estos valores y di el valor de z.
 
