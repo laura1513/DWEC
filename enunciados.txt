@@ -57,6 +57,8 @@ prueba 28: Realiza un programa que utilizando la sentencia switch-case que te le
 
 prueba 29: Prueba este código y comprueba su funcionamiento (while y do-while)
 
+prueba 30: Realiza un bucle for que te lea un numero menor que 10, y que muestre por pantalla el numero
+
 TEMA 2
 actividad 1: Comprueba estos valores y di el valor de z.
 
