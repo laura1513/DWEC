@@ -88,3 +88,5 @@ funct 5: Prueba este ejemplo de funcion
 funct 6: Prueba este ejemplo de funcion
 
 funct 7: Aunque modifiquemos los parametros dentro de la función, su valor no varía. Prueba este ejemplo de funcion
+
+funct 8: Realiza una función con multiples parametros que sume 2 números y los muestre por consola
