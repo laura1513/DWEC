@@ -80,3 +80,5 @@ funct 1: Realiza una suma de 2 valores dentro de una función y que te muestre e
 funct 2: Asignar una variable a la función y que muestre el valor por consola
 
 funct 3: Prueba este ejemplo de funcion
+
+funct 4: Que ocurre si no le pasamos ningún valor a la variable
