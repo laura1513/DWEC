@@ -94,3 +94,5 @@ funct 8: Realiza una función con multiples parametros que sume 2 números y los
 funct 9: Prueba este ejemplo de funcion
 
 funct 10: Declara una función que calcule lel volumen de un cono declarando 2 variables de radio y altura y te lo muestre por pantalla. La función tiene que devolver el volumen
+
+funct 11: Realiza una función que te encuentre el maximo de 3 enteros y lo muestre por pantalla
