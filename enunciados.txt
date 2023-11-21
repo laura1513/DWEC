@@ -73,3 +73,6 @@ actividad 1: Comprueba estos valores y di el valor de z.
 actividad 2: Comprueba el valor de x.
 
 actividad 3: Comprueba el valor de z.
+
+FUNCIONES
+funct 1: Realiza una suma de 2 valores dentro de una función y que te muestre en consola el valor de la suma
