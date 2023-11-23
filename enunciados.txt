@@ -102,3 +102,5 @@ funct 12: Prueba este ejemplo de funcion
 funct 13: Crea una función que pase de Celsius a Farnheit y lo muestre por consola. Usa el Prompt
 
 funct 14: Haz una función que reciba dos strings y los concatene
+
+funct 15: Haz una función que calcule la potencia de un número dado su base y yexponente
