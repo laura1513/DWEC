@@ -100,3 +100,5 @@ funct 11: Realiza una función que te encuentre el maximo de 3 enteros y lo mues
 funct 12: Prueba este ejemplo de funcion
 
 funct 13: Crea una función que pase de Celsius a Farnheit y lo muestre por consola. Usa el Prompt
+
+funct 14: Haz una función que reciba dos strings y los concatene
