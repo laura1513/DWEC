@@ -111,3 +111,5 @@ array 1: Crea un array con números, strings, de objetos y una matriz 2x2
 array 2: Tamaño del array
 
 array 3: Calcula la suma de todos los elementos de un array
+
+array 4: Encontrar el número más grande de un array
