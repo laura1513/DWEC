@@ -113,3 +113,5 @@ array 2: Tamaño del array
 array 3: Calcula la suma de todos los elementos de un array
 
 array 4: Encontrar el número más grande de un array
+
+array 5:
