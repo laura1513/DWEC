@@ -9,16 +9,18 @@
         
         var num = [1, 2, 3, 4, 5, 6, 5, 8, 1, 2, 7, 0];
 
+        
         function veces(num) {
-            var ask = ("Introduce el número que quieres saber las repeticiones", "");
-            var num = 0;
+            var ask = prompt("Introduce el número que quieres saber las repeticiones", "");
+            var n = 0;
             for(var i = 0; i < num.length; i++) {
                 if(ask == num[i]) {
-                    num++;
+                    n++;
                 }
             }
+            return n;
         }
-        console.log(num);
+        console.log(veces(num));
     </script>
 </head>
 <body>
