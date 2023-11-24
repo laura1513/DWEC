@@ -114,4 +114,4 @@ array 3: Calcula la suma de todos los elementos de un array
 
 array 4: Encontrar el número más grande de un array
 
-array 5:
+array 5: Contar la frecuencia de numeros del array
