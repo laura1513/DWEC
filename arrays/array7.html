@@ -9,9 +9,10 @@
         
         var cad = ["hola", "a", "coche", "pedro", "boli", "arbol"];
         var ask = prompt("Introduce una cadena", "");
+        var c = ask.toLowerCase();
         var ok = false;
         for(var i = 0; i < cad.length; i++) {
-            if(cad[i] == ask) {
+            if(cad[i] == c) {
                 ok = true;
             }
         }
