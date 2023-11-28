@@ -130,3 +130,5 @@ obj 3: Crea una función leer, invocala y devuelvela por consola
 obj 4: Modifica el precio del libro
 
 obj 5: Crea una pagina web con un script que contenga un objeto de la clase persona, la cual tendrá los siguientes atributos: nombre, apellidos, dni, edad, altura, estudios
+
+obj 6: Crea un objeto coche con las propiedades marca, modelo y fecha de matriculación. Luego accede a cada una de las propiedades e imprimelas por consola
