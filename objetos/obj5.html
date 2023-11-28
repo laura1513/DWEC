@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        /*Crea una pagina web con un script que contenga un objeto de la clase persona, la cual tendrá los siguientes atributos: nombre, apellidos, dni, edad, altura, estudios*/
+        const persona = {
+            cabecera: "DATOS ESTUDIANTE",
+            nombre: "Laura",
+            apellidos: "Jorques Trenco",
+            dni: "12345678A",
+            edad: 21,
+            altura: 150,
+            estudios: "Grado superior"
+        }
+        document.write("<h1>" + persona.cabecera + "</h1>");
+        document.write("<h3>Nombre: " + persona.nombre + "</h3>");
+        document.write("<h3>Apellidos: " + persona.apellidos + "</h3>");
+        document.write("<h3>DNI: " + persona.dni + "</h3>");
+        document.write("<h3>Edad: " + persona.edad + "</h3>");
+        document.write("<h3>Altura: " + persona.altura + "</h3>");
+        document.write("<h3>Estudios: " + persona.estudios + "</h3>");
+        /*Una vez creado el objeto, se deberá mostrar por pantalla. "El usuario 'nombre' tiene 'edad' años y mide 'altura'cm y es 'estudios'"*/
+        document.write("<p>El usuario " + persona.nombre + " tiene " + persona.edad + " años, mide " + persona.altura + "cm y es estudiante de " + persona.estudios + "</p>")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
