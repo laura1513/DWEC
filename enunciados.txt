@@ -143,3 +143,5 @@ math 1: Explicación de todas las funciones
 math 2: Lee un numero decimal por pantalla y redondealo hacia abajo
 
 math 3: Realiza una funcion con un array de 7 numeros y que te devuelva con document.write el valor maximo
+
+math 4: Realiza un ejercicio que te lea un numero aleatorio del 1 al 10 y que compruebe que el usuario ha introducido el mismo

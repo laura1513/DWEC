@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        /*Realiza un ejercicio que te lea un numero aleatorio del 1 al 10 y que compruebe que el usuario ha introducido el mismo*/
+        var n = parseInt(((Math.random() * 10) + 1));
+        var ok = false;
+        do {
+            var a = parseInt(prompt("Introduce un número aleatorio del 1 al 10", ""));
+            if (n === a) {
+                alert("Has acertado");
+                ok = true;
+            } else {
+                alert("error");
+            }
+        } while (ok === false);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
