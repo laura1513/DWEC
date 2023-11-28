@@ -119,3 +119,6 @@ array 5: Contar la frecuencia de numeros del array
 array 6: Encontrar la media de un array
 
 array 7: Crea un array de strings que te lea por pantalla una cadena y que te diga true si está
+
+OBJETOS
+obj 1: 
