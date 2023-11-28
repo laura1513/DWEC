@@ -139,3 +139,5 @@ obj 8: Borra la propiedad color y muestrala por consola
 
 FUNCIONES MATH
 math 1: Explicación de todas las funciones
+
+math 2: Lee un numero decimal por pantalla y redondealo hacia abajo
