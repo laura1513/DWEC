@@ -124,3 +124,5 @@ OBJETOS
 obj 1: Crea un objeto tipo libro con las siguientes propiedades: titulo, autor, paginas, formato, precio y si está o no publicado
 
 obj 2: Muestra por pantalla el titulo, autor, paginas, formato, precio y si está o no publicado
+
+obj 3: Crea una función leer, invocala y devuelvela por consola
