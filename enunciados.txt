@@ -136,3 +136,6 @@ obj 6: Crea un objeto coche con las propiedades marca, modelo y fecha de matricu
 obj 7: Modifica el ejercicio anterior y modifica el valkor de fecha a 2023 y el color a rojo, muestralo por consola
 
 obj 8: Borra la propiedad color y muestrala por consola
+
+FUNCIONES MATH
+math 1: Explicación de todas las funciones
