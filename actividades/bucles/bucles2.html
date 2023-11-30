@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        /*Realiza un programa que lee por consola dos números enteros (A y B). Si B es mayor
+        que A, muestra todos los números impares entre ellos. */
+        var a = parseInt(prompt("Introduce un número: ", ""));
+        var b = parseInt(prompt("Introduce otro numero: ",""));
+
+        if (a > b) {
+            for (var i = a; i >= b; i--) {
+                if (i%2 === 0) {
+                    console.log(i);
+                }
+            }
+        } else if (b > a) {
+            for (var i = b; i >= a; i--) {
+                if (i%2 !== 0) {
+                    console.log(i);
+                }
+            }
+        } else {
+            console.log("Los numeros son iguales")
+        }
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
