@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        /*Lee por teclado varios números enteros positivos hasta recibir un número negativo.
+        El programa mostrará la media de los números (sin tener en cuenta el negativo).*/
+        var n = parseInt(prompt("Introduce numeros", ""));
+        var sum = 0;
+        var cont = 0;
+        while (n >= 0) {
+            n = parseInt(prompt("Introduce otro numero", ""));
+            if (n >= 0) {
+                sum = sum + n;
+                cont++;
+            }
+        }
+        alert("Has introducido un numero negativo. La media de los numeros introducidos es " + (sum/cont))
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
