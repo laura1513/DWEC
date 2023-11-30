@@ -158,3 +158,5 @@ bucles 4: Lee por teclado varios números enteros positivos hasta recibir un nú
 bucles 5: Realiza un programa que permite a un profesor introducir la nota de un número indefinido de alumnos y le indica cuántos suspendidos o aprobados hay.
 
 bucles 6: Haz un programa que pide un número entero por consola y calcula el factorial.
+
+bucles 7: Haz un programa que pida un número entero por consola e indica si es primo o no
