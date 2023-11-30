@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        /*Realiza un programa que permite a un profesor introducir la nota de un número
+        indefinido de alumnos y le indica cuántos suspendidos o
+        aprobados hay. */
+        var sus = 0;
+        var ap = 0;
+        do {
+            var nota = parseInt(prompt("Introduce la nota del alumno, el bucle acaba cuando se introduce una nota no válida", ""));
+            if (nota >= 5 && nota <= 10) {
+                ap++;
+            } else if (nota >= 0 && nota < 5){
+                sus++;
+            }
+        } while(nota>=0 && nota<=10);
+        alert("Hay " + ap + " alumnos aprobados y " + sus + " alumnos suspendidos")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
