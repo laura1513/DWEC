@@ -153,6 +153,8 @@ bucles 2: Realiza un programa que lee por consola dos números enteros (A y B). 
 
 bucles 3: Realiza un programa que lea por consola un número entero e indique cuántas cifras tiene. Pista: usa varias divisiones entre 10. 
 
-bucls 4: Lee por teclado varios números enteros positivos hasta recibir un número negativo. El programa mostrará la media de los números (sin tener en cuenta el negativo).
+bucles 4: Lee por teclado varios números enteros positivos hasta recibir un número negativo. El programa mostrará la media de los números (sin tener en cuenta el negativo).
 
-bucle 5: Realiza un programa que permite a un profesor introducir la nota de un número indefinido de alumnos y le indica cuántos suspendidos o aprobados hay.
+bucles 5: Realiza un programa que permite a un profesor introducir la nota de un número indefinido de alumnos y le indica cuántos suspendidos o aprobados hay.
+
+bucles 6: Haz un programa que pide un número entero por consola y calcula el factorial.
