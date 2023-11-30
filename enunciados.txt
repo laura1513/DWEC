@@ -149,4 +149,6 @@ math 4: Realiza un ejercicio que te lea un numero aleatorio del 1 al 10 y que co
 ACTIVIDADES/BUCLES
 bucles 1: Escribe un programa que muestra por consola todos los números pares entre 1 y 1000
 
-bucles 2: Realiza un programa que lee por consola dos números enteros (A y B). Si B es mayor que A, muestra todos los números impares entre ellos. 
+bucles 2: Realiza un programa que lee por consola dos números enteros (A y B). Si B es mayor que A, muestra todos los números impares entre ellos.
+
+bucles 3: Realiza un programa que lea por consola un número entero e indique cuántas cifras tiene. Pista: usa varias divisiones entre 10. 
