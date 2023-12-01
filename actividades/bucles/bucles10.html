@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        /*“El número secreto”. Programa un juego en el que se calcula aleatoriamente un
+        número de 1 a 100. El usuario debe adivinarlo. Cada vez que el usuario pone un
+        número el programa le indicará si lo ha acertado, si el número secreto es mayor o si es
+        menor. Termina cuando el usuario acierta el número. */
+        var n = parseInt((Math.random() * 100) + 1);
+        var ok = false;
+        var d = parseInt(prompt("Introduce un numero:", ""));
+        do{
+            if (d === n) {
+                alert("Has acertado");
+                ok = true;
+            } else {
+                if (n > d) {
+                    d = parseInt(prompt("El numero es mayor que " + d +". Introduce un numero:", ""));
+                } else if (n < d) {
+                    d = parseInt(prompt("El numero es menor que " + d +". Introduce un numero:", ""));
+                }
+            }
+        } while(ok === false);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

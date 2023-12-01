@@ -164,3 +164,5 @@ bucles 7: Haz un programa que pida un número entero por consola e indica si es 
 bucles 8: Haz un programa que encuentre e imprima por consola los 20 primeros números primos.
 
 bucles 9: Haz un programa que calcule un número aleatorio de la lotería de Navidad (de 0 a 99.999) y después pida al usuario por consola hasta 5 números indicando cada vez si ha ganado la lotería o no
+
+bucles 10: “El número secreto”. Programa un juego en el que se calcula aleatoriamente un número de 1 a 100. El usuario debe adivinarlo. Cada vez que el usuario pone un número el programa le indicará si lo ha acertado, si el número secreto es mayor o si es menor. Termina cuando el usuario acierta el número. 
