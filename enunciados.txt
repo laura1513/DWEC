@@ -162,3 +162,5 @@ bucles 6: Haz un programa que pide un número entero por consola y calcula el fa
 bucles 7: Haz un programa que pida un número entero por consola e indica si es primo o no
 
 bucles 8: Haz un programa que encuentre e imprima por consola los 20 primeros números primos.
+
+bucles 9: Haz un programa que calcule un número aleatorio de la lotería de Navidad (de 0 a 99.999) y después pida al usuario por consola hasta 5 números indicando cada vez si ha ganado la lotería o no
