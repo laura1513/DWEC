@@ -6,15 +6,20 @@
     <title>Document</title>
     <script type="text/javascript">
         /*Haz un programa que encuentre e imprima por consola los 20 primeros números primos.*/
-        var n = 0
-        var cont = 0
-        do {
-            for (var i = 2; i < n; i++) {
-                if (n % i === 0) {
-                    ok = true;
+        for (var i = 2; i < 100; i++) {
+            if (primo(i) === true) {
+                console.log(i)
+            }
+        }
+
+        function primo(numero) {
+            for (var i = 2; i < numero; i++) {
+                if (numero % i === 0) {
+                    return false;
                 }
             }
-        }while(cont<=20);
+            return numero !== 1;
+        }
     </script>
 </head>
 <body>

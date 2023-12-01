@@ -160,3 +160,5 @@ bucles 5: Realiza un programa que permite a un profesor introducir la nota de un
 bucles 6: Haz un programa que pide un número entero por consola y calcula el factorial.
 
 bucles 7: Haz un programa que pida un número entero por consola e indica si es primo o no
+
+bucles 8: Haz un programa que encuentre e imprima por consola los 20 primeros números primos.
