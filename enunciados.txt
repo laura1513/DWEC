@@ -171,3 +171,5 @@ bucles 11: .Haz una calculadora. La calculadora permitirá hacer varias operacio
 
 CONDICIONALES
 condicional 1: Realiza un programa que lea por consola el lado de un cuadrado y mostrará por consola la superficie y el perímetro.
+
+condicional 2: Realiza un programa que lea por consola la base y la altura de un rectángulo y mostrará por consola la superficie y el perímetro
