@@ -10,8 +10,43 @@
         mostrará el resultado por consola. A continuación pedirá los datos para una nueva
         operación. Piensa en un modo para que se pueda salir de la calculadora en cualquier
         momento.*/
-        var uno = parseInt(prompt("Introduce un numero", ""));
-        
+        var x = prompt("Introduce un numero o escribe salir", "");
+        var uno = x.toLowerCase();
+        var x = prompt("Introduce un simbolo o escribe salir", "");
+        var sim = x.toLowerCase();
+        var x = prompt("Introduce otro numero o escribe salir", "");
+        var dos = x.toLowerCase();
+        var salir = "salir";
+        var ok = false;
+        do {
+            if (uno === salir || dos === salir || sim === salir) {
+                ok = true;
+            } else {
+                var a = parseFloat(uno);
+                var b = parseFloat(dos);
+                if (sim === "+") {
+                    alert(a + " + " + b + " = " + (a+b));
+                } else if (sim === "-") {
+                    alert(a + " - " + b + " = " + (a-b));
+                } else if (sim === "*") {
+                    alert(a + " * " + b + " = " + (a*b));
+                } else if (sim === "/") {
+                    alert(a + " / " + b + " = " + (a/b));
+                } else if (sim === "%") {
+                    alert(a + " % " + b + " = " + (a%b));
+                } else {
+                    alert("El simbolo introducido no es válido");
+                    ok = true;
+                }
+            }
+            var x = prompt("Introduce un numero o escribe salir", "");
+            var uno = x.toLowerCase();
+            var x = prompt("Introduce un simbolo o escribe salir", "");
+            var sim = x.toLowerCase();
+            var x = prompt("Introduce otro numero o escribe salir", "");
+            var dos = x.toLowerCase();
+        } while (ok === false);
+        alert("Has salido");
     </script>
 </head>
 <body>
