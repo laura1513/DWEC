@@ -168,3 +168,6 @@ bucles 9: Haz un programa que calcule un número aleatorio de la lotería de Nav
 bucles 10: “El número secreto”. Programa un juego en el que se calcula aleatoriamente un número de 1 a 100. El usuario debe adivinarlo. Cada vez que el usuario pone un número el programa le indicará si lo ha acertado, si el número secreto es mayor o si es menor. Termina cuando el usuario acierta el número. 
 
 bucles 11: .Haz una calculadora. La calculadora permitirá hacer varias operaciones. Pedirá un número real, pedirá una operación (+, -, *, / o %), pedirá otro número real y mostrará el resultado por consola. A continuación pedirá los datos para una nueva operación. Piensa en un modo para que se pueda salir de la calculadora en cualquier momento.
+
+CONDICIONALES
+condicional 1: Realiza un programa que lea por consola el lado de un cuadrado y mostrará por consola la superficie y el perímetro.
