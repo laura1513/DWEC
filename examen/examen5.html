@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        /*Introducir el precio de un artículo. Calcular el iva y el precio total (con el iva incluido)
+        que debe salir redondeado a dos decimales.*/
+        var precio = parseFloat(prompt("Introduce un precio", ""));
+        var iva = 21;
+        var precioIva = ((precio * iva)/100);
+        var total = precio + precioIva;
+        
+
+        alert("El iva ha sido de " + precioIva + "€ y el precio final ha sido de " + total + "€");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

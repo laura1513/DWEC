@@ -173,3 +173,16 @@ CONDICIONALES
 condicional 1: Realiza un programa que lea por consola el lado de un cuadrado y mostrará por consola la superficie y el perímetro.
 
 condicional 2: Realiza un programa que lea por consola la base y la altura de un rectángulo y mostrará por consola la superficie y el perímetro
+
+EXAMEN
+examen 1: Introducir 5 números. Calcular la suma de todos ellos. Decir cuántos de ellos son mayores de 100.
+
+examen 2: Almacena en un array los números 7,8,2,9,10. Calcular la suma de los números mayores de 8
+
+examen 3: Introducir el mes y decir a que estación pertenece
+
+examen 4: Introducir un numero y decir si es par o impares
+
+examen 5: Introducir el precio de un artículo. Calcular el iva y el precio total (con el iva incluido) que debe salir redondeado a dos decimales.
+
+examen 6: Introducir una cadena. Decir la longitud de la cadena. Pasarla a mayúsculas y a minúsculas. Después al revés.

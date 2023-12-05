@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        /*Introducir el mes y decir a que estación pertenece*/
+        var mes = prompt("Introduce un mes");
+        var mes2 = mes.toLowerCase();
+        switch(mes2) {
+            case "diciembre":
+            case "enero":
+            case "febrero":
+                alert("Estamos en invierno");
+                break;
+            case "marzo":
+            case "abril":
+            case "mayo":
+                alert("Estamos en primavera");
+                break;
+            case "junio":
+            case "julio":
+            case "agosto":
+                alert("Estamos en verano");
+                break;
+            case "septiembre":
+            case "octubre":
+            case "noviembre":
+                alert("Estamos en otoño");
+                break;
+            default:
+                alert("El mes introducido no existe");
+                break;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        /*Introducir una cadena. Decir la longitud de la cadena. Pasarla a mayúsculas y a
+        minúsculas. Después al revés*/
+        var cadena = prompt("Introduce una cadena");
+        var may = cadena.toUpperCase();
+        var min = cadena.toLowerCase();
+
+        document.write("La cadena es: " + cadena + ".<BR>"
+        + "La longitud de la cadena es de " + caracteres(cadena) + " caracteres.<BR>"
+        + "La cadena a mayusculas es " + may + ".<BR>"
+        + "La cadena a minusculas es " + min + ".<BR>"
+        + "La cadena al reves es " + reves(cadena));
+
+        function reves(cad) {
+            var espacio = cad.split(" ");
+            var invertir = espacio.reverse();
+            var cad2 = invertir.join(" ");
+            return cad2;
+        }
+
+        function caracteres(cad) {
+            var espacio = cad.split(" ");
+            var cad2 = espacio.join("");
+            return cad2.length;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
