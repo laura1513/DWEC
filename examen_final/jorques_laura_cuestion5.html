@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        /*Realiza un programa que calcule el precio de la estancia en un camping. Leerá por
+        consola el número de personas y días. La tarifa estándar es de 15 €/noche, pero si son
+        más de 5 personas y se quedan al menos una semana el precio se reduce un 25%*/
+        var personas = parseInt(prompt("Introduce el número de personas", ""));
+        var dias = parseInt(prompt("Introduce el numero de dias", ""));
+        const tarifa = 15;
+        var total = tarifa * dias;
+        if (personas > 5 && dias >= 7) {
+            total = total - (total * 25 / 100);
+        }
+        alert("El precio total es de " + total + "€")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

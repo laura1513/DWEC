@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        /*Crea un array con 4 strings, que te lea por pantalla una cadena y que te diga true si
+        está, mostrándolo por consola.*/
+        var array = ["hola", "pera", "gato", "casa"];
+        var ok = false;
+
+        var cad = prompt("Introduce una cadena");
+        var c = cad.toLowerCase();
+
+        if(array.includes(c)) {
+            ok = true;
+        }
+
+        if (ok === true) {
+            alert(ok);
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

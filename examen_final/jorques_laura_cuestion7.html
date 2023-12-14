@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        /*Haz un programa que calcule un número aleatorio de la lotería de Navidad (de 0 a 100)
+        y después pida al usuario por consola hasta 5 números indicando cada vez si ha ganado
+        la lotería o no.*/
+
+        //((Math.random() * maximo) + minimo)
+        var loteria = parseInt((Math.random() * 100) + 0);
+        alert(loteria);
+        var ok = false;
+        var cont = 1;
+        var d = parseInt(prompt("Introduce un numero:", ""));
+        do{
+            if (d === loteria) {
+                alert("Has ganado la loteria");
+                ok = true;
+            } else {
+                d = parseInt(prompt("Has fallado. Introduce un numero:", ""));
+            }
+            cont++;
+        } while(ok === false && cont < 5);
+        if (ok === false) {
+            alert("No has ganado la loteria");
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

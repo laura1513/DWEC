@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        /*Realiza un programa que lea 5 notas de un alumno, calcula la media e indica si está
+        suspendido o aprobado (nota media mayor o igual a 5). Que te muestre la nota en una
+        pantalla emergente.*/
+        var media = 0;
+        var acum = 0;
+        var notas = [];
+        for (let index = 1; index <= 5; index++) {
+            var nota = parseInt(prompt("Introduce la nota del alumno", ""));
+            notas.push(nota);
+            acum = acum + nota;
+        }
+        media = acum / 5;
+        if (media >= 5) {
+            alert("Alumno aprobado, nota: " + media);
+        } else {
+            alert("Alumno suspendido, nota: " + media)
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
