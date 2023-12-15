@@ -188,3 +188,18 @@ examen 4: Introducir un numero y decir si es par o impares
 examen 5: Introducir el precio de un artículo. Calcular el iva y el precio total (con el iva incluido) que debe salir redondeado a dos decimales.
 
 examen 6: Introducir una cadena. Decir la longitud de la cadena. Pasarla a mayúsculas y a minúsculas. Después al revés.
+
+EXAMEN FINAL
+cuestion 1: Realiza un programa que lea 5 notas de un alumno, calcula la media e indica si está suspendido o aprobado (nota media mayor o igual a 5). Que te muestre la nota en una pantalla emergente.
+
+cuestion 2: Realiza un bucle que lea un número y que te diga si es primo o no. Un número primo sólo es divisible por él mismo y por la unidad. Que te muestre el resultado en una pantalla emergente.
+
+cuestion 3: Crea un array con 4 strings, que te lea por pantalla una cadena y que te diga true si está, mostrándolo por consola.
+
+cuestion 4: Crea una página web con un script que contenga un objeto, la cual tendrá los atributos descritos después. El objeto debe crearse dentro del script al igual que el contenido web.
+
+cuestion 5: Realiza un programa que calcule el precio de la estancia en un camping. Leerá por consola el número de personas y días. La tarifa estándar es de 15 €/noche, pero si son más de 5 personas y se quedan al menos una semana el precio se reduce un 25%.
+
+cuestion 6: Realizar programa en el que el usuario introduce el número del mes (1 al 12) y el código responde si ese mes Ɵene 30 o 31 días en la página web, solo pueda permitir números del 1 al 12.
+
+cuestion 7: Haz un programa que calcule un número aleatorio de la lotería de Navidad (de 0 a 100) y después pida al usuario por consola hasta 5 números indicando cada vez si ha ganado la lotería o no.
