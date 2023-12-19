@@ -208,3 +208,5 @@ DOM
 dom 1: Realiza una función en javascript que suma dos numeros creando 2 archivos y ejecutandolos comprobando que la pagina web muestra la suma al cargarse
 
 dom 2: Copia el siguiente código y comprueba el funcionamiento. Modificar contenido.
+
+dom 3: Crea una página web para el registro del Arenal Sound, debe decir que para registrate debes pulsar un botón, después te debe cambiar el texto, decirte que estás registrado y mostratelo en la página web
