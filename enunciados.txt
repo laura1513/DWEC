@@ -211,4 +211,6 @@ dom 2: Copia el siguiente código y comprueba el funcionamiento. Modificar conte
 
 dom 3: Crea una página web para el registro del Arenal Sound, debe decir que para registrate debes pulsar un botón, después te debe cambiar el texto, decirte que estás registrado y mostratelo en la página web
 
-dom 4: Copia el siguiente ejemplo
+dom 4: Cambio de imagenes
+
+dom 5: Cambio de videos
