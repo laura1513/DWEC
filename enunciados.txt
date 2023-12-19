@@ -205,4 +205,4 @@ cuestion 6: Realizar programa en el que el usuario introduce el número del mes 
 cuestion 7: Haz un programa que calcule un número aleatorio de la lotería de Navidad (de 0 a 100) y después pida al usuario por consola hasta 5 números indicando cada vez si ha ganado la lotería o no.
 
 INTRODUCCION 3
-prueba 1: Realiza una función en javascript que suma dos numeros creando 2 archivos y ejecutandolos.
+prueba 1: Realiza una función en javascript que suma dos numeros creando 2 archivos y ejecutandolos comprobando que la pagina web muestra la suma al cargarse
