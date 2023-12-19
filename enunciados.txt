@@ -1,4 +1,4 @@
-INTRODUCCION
+INTRODUCCION 2
 prueba 1: Pide tu nombre y muestralo por pantalla
 
 prueba 2: Genera una declaracion explicita con valor y muestrala en la pantalla. Genera una declaracion explicita multiple dandole valor a ellas
@@ -203,3 +203,6 @@ cuestion 5: Realiza un programa que calcule el precio de la estancia en un campi
 cuestion 6: Realizar programa en el que el usuario introduce el número del mes (1 al 12) y el código responde si ese mes Ɵene 30 o 31 días en la página web, solo pueda permitir números del 1 al 12.
 
 cuestion 7: Haz un programa que calcule un número aleatorio de la lotería de Navidad (de 0 a 100) y después pida al usuario por consola hasta 5 números indicando cada vez si ha ganado la lotería o no.
+
+INTRODUCCION 3
+prueba 1: Realiza una función en javascript que suma dos numeros creando 2 archivos y ejecutandolos.
