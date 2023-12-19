@@ -214,3 +214,5 @@ dom 3: Crea una página web para el registro del Arenal Sound, debe decir que pa
 dom 4: Cambio de imagenes
 
 dom 5: Cambio de videos
+
+dom 6: Elaborar una secuencia de 10 imagenes y al hacer clic se van cambiando las fotos
