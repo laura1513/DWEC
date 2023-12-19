@@ -207,4 +207,4 @@ cuestion 7: Haz un programa que calcule un número aleatorio de la lotería de N
 DOM
 dom 1: Realiza una función en javascript que suma dos numeros creando 2 archivos y ejecutandolos comprobando que la pagina web muestra la suma al cargarse
 
-dom 2: Copia el siguiente código y comprueba el funcionamiento
+dom 2: Copia el siguiente código y comprueba el funcionamiento. Modificar contenido.
