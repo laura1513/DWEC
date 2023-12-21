@@ -6,7 +6,7 @@ function azul() {
     var c = document.getElementById('body');
     c.style.backgroundColor = 'blue';
 }
-function verde() {
+function rojo() {
     var c = document.getElementById('body');
-    c.style.backgroundColor = 'green';
+    c.style.backgroundColor = 'red';
 }
