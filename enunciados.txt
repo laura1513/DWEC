@@ -216,3 +216,5 @@ dom 4: Cambio de imagenes
 dom 5: Cambio de videos
 
 dom 6: Elaborar una secuencia de 10 imagenes y al hacer clic se van cambiando las fotos
+
+dom 7: Cambiar el aspecto de la página web, cambiado el color y el tamaño al pulsar
