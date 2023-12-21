@@ -220,3 +220,7 @@ dom 6: Elaborar una secuencia de 10 imagenes y al hacer clic se van cambiando la
 dom 7: Cambiar el aspecto de la página web, cambiado el color y el tamaño al pulsar
 
 dom 8: Crea una página web con tres botones con el texto azul, verde y rojo. Al pinchar sobre cada botón debe camboiar el fondo de la pgina al color indicado. Utilizaremos el evento onclick.
+
+dom 9: Lo mismo pero el color del texto
+
+dom 10: Lo mismo pero el fondo del texto
