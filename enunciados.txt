@@ -228,3 +228,5 @@ dom 10: Lo mismo pero el fondo del texto
 dom 11: Realiza un test de 7 preguntas donde cada pregunta tenga 2 botones(verdadero y falso). Dependiendo si el usuario hace click en verdadero o falso el fondo la frase se pone verde(acierto) o roja(error).
 
 dom 12: Diseña una web con 3 botones para que al pulsarlos se genere un mensaje de bienvenida en ruso, español e inglés en la misma página. Se pide que los mensajes tengan un color diferente dependiendo del idioma.
+
+dom 13: Crea una página HTML con un div con el texto “ Bienvenido a esta página de prueba de colores” que aparecerá inicialmente en blanco. La página contendrá tres botones y al pinchar sobre ellos cambiará el fondo del div.
