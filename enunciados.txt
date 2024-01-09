@@ -224,3 +224,5 @@ dom 8: Crea una página web con tres botones con el texto azul, verde y rojo. Al
 dom 9: Lo mismo pero el color del texto
 
 dom 10: Lo mismo pero el fondo del texto
+
+dom 11: Realiza un test de 7 preguntas donde cada pregunta tenga 2 botones(verdadero y falso). Dependiendo si el usuario hace click en verdadero o falso el fondo la frase se pone verde(acierto) o roja(error).

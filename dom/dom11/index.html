@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--Realiza un test de 7 preguntas donde cada pregunta tenga 2 botones(verdadero y falso). Dependiendo si el usuario hace click en verdadero o falso el fondo la frase se pone verde(acierto) o roja(error).-->
+    <p id="frase" style="display: inline-block;">2 + 2 = 4</p>
+    <button onclick="correcto('frase')">VERDADERO</button>
+    <button onclick="error('frase')">FALSO</button><br>
+
+    <p id="cielo" style="display: inline-block;">El cielo es verde</p>
+    <button onclick="error('cielo')">VERDADERO</button>
+    <button onclick="correcto('cielo')">FALSO</button><br>
+
+    <p id="pajaro" style="display: inline-block;">Los pajaros vuelan</p>
+    <button onclick="correcto('pajaro')">VERDADERO</button>
+    <button onclick="error('pajaro')">FALSO</button><br>
+
+    <p id="insti" style="display: inline-block;">El instituto está en Almazora</p>
+    <button onclick="correcto('insti')">VERDADERO</button>
+    <button onclick="error('insti')">FALSO</button><br>
+
+    <p id="medi" style="display: inline-block;">En medicina se estudia como construir casas</p>
+    <button onclick="error('medi')">VERDADERO</button>
+    <button onclick="correcto('medi')">FALSO</button><br>
+
+    <p id="tierra" style="display: inline-block;">La Tierra es redonda</p>
+    <button onclick="error('tierra')">VERDADERO</button>
+    <button onclick="correcto('tierra')">FALSO</button><br>
+
+    <p id="planeta" style="display: inline-block;">Hay 8 planetas en el sistema solar</p>
+    <button onclick="correcto('planeta')">VERDADERO</button>
+    <button onclick="error('planeta')">FALSO</button><br>
+</body>
+</html>
