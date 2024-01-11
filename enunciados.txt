@@ -238,3 +238,6 @@ dom 15: Genera 3 botones para ampliar hasta un cierto tamaño y disminuirlo hast
 dom 16: Genera una página web con un botón para aumentar o disminuir una imagen.
 
 dom 17: Crea un pagina web con un array como muestra la figura
+
+EVENTOS
+evento 1: Crea una página web que te permita escribir en la página web un texto introducido por teclado
