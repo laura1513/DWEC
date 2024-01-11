@@ -234,3 +234,5 @@ dom 13: Crea una página HTML con un div con el texto “ Bienvenido a esta pág
 dom 14: Realiza una pagina web que al pulsar el botón de aparcer aparezca la imagen, igual con desaparecer
 
 dom 15: Genera 3 botones para ampliar hasta un cierto tamaño y disminuirlo hasta. Si se supera el tamaño máximo debe mostrar por pantalla superado tamaño máximo y si llega al mínimo que muestre por pantalla tamaño mínimo.
+
+dom 16: Genera una página web con un botón para aumentar o disminuir una imagen.
