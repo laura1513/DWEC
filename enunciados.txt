@@ -236,3 +236,5 @@ dom 14: Realiza una pagina web que al pulsar el botón de aparcer aparezca la im
 dom 15: Genera 3 botones para ampliar hasta un cierto tamaño y disminuirlo hasta. Si se supera el tamaño máximo debe mostrar por pantalla superado tamaño máximo y si llega al mínimo que muestre por pantalla tamaño mínimo.
 
 dom 16: Genera una página web con un botón para aumentar o disminuir una imagen.
+
+dom 17: Crea un pagina web con un array como muestra la figura
