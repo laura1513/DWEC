@@ -243,3 +243,5 @@ EVENTOS
 evento 1: Crea una página web que te permita escribir en la página web un texto introducido por teclado
 
 guiada: https://www.youtube.com/watch?v=FbO4rxuowMw
+
+entregable 1: Pon un div, el siguiente: 'Al pasar por encima cambiará de tamaño'. El tamaño inicial es 12, cuando pasemos por encima aumentará a 16 y cuando salgamos volverá al inicial
