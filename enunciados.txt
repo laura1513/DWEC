@@ -241,3 +241,5 @@ dom 17: Crea un pagina web con un array como muestra la figura
 
 EVENTOS
 evento 1: Crea una página web que te permita escribir en la página web un texto introducido por teclado
+
+guiada: https://www.youtube.com/watch?v=FbO4rxuowMw
