@@ -262,3 +262,6 @@ COMPORTAMIENTOS DEFECTO
 comp 1: Crea dos enlaces uno que cargue la pagina web de google y otro que ejecute un código y no cargue la pagina web
 
 comp 2: Realiza en un javascript una pagina web que cambia el color de un parrafo a azul al pulsar sobre un enlace de google, también habrá que crear otro enlace que cambie de color y no vaya a google
+
+LISTENERS
+listeners 1: Crea usando la función addEventListeners paera vincular un evento con dos funciones en javascript, que al pulsar un botón te diga por pantalla Hola mundo y otro botón Hola otra vez
