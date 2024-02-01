@@ -245,3 +245,5 @@ evento 1: Crea una página web que te permita escribir en la página web un text
 guiada: https://www.youtube.com/watch?v=FbO4rxuowMw
 
 entregable 1: Pon un div, el siguiente: 'Al pasar por encima cambiará de tamaño'. El tamaño inicial es 12, cuando pasemos por encima aumentará a 16 y cuando salgamos volverá al inicial
+
+evento 2: Realiza una página web con un botón, al pulsarlo debe aparecer con un alert 'Hola mundo', pero habrá que asociar el onclick a un document.getElementById();
