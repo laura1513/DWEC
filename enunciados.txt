@@ -251,3 +251,9 @@ evento 2: Realiza una página web con un botón, al pulsarlo debe aparecer con u
 evento 3: Realiza una pagina web con un botón, al pulsarlo debe aparecer con un texto en azul
 
 evento 4: Realiza una pagina web utilizando eventos. Al pulsar el botón debe aparecer tu nombre con un aviso con tu nombre introducido
+
+act1: Realiza una pagina web que cambie el color del fondo al pulsar una tecla
+
+act2: Realiza una pagina web que cambie el tamaño de un elemento al girar la rueda del ratón
+
+act3: Realiza una pagina web que cambie una fotografia al pulsar enter
