@@ -260,3 +260,5 @@ act 3: Realiza una pagina web que cambie una fotografia al pulsar enter
 
 COMPORTAMIENTOS DEFECTO
 comp 1: Crea dos enlaces uno que cargue la pagina web de google y otro que ejecute un código y no cargue la pagina web
+
+comp 2: Realiza en un javascript una pagina web que cambia el color de un parrafo a azul al pulsar sobre un enlace de google, también habrá que crear otro enlace que cambie de color y no vaya a google
