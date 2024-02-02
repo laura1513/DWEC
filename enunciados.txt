@@ -279,3 +279,5 @@ fechas 1: Muestra la fecha en la pagina web
 
 ARRAYS 2
 arrays 1: Muestra en la pagina web los dias laborales de la semana
+
+arrays 2: Recorrer el array de los dias de la semana
