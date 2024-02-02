@@ -281,3 +281,5 @@ ARRAYS 2
 arrays 1: Muestra en la pagina web los dias laborales de la semana
 
 arrays 2: Recorrer el array de los dias de la semana
+
+arrays 3: Realiza un script que muestre un rombo en la pagina web
