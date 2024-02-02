@@ -276,3 +276,6 @@ listeners 5: Crea usando la funcion addEventListeners una pagina web que en un c
 
 FECHAS
 fechas 1: Muestra la fecha en la pagina web
+
+ARRAYS 2
+arrays 1: Muestra en la pagina web los dias laborales de la semana
