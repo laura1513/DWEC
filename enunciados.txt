@@ -273,3 +273,6 @@ listeners 3: Crea usando la funcion addEventListeners una pagina web que tiene u
 listeners 4: Crea usando la función addEventListeners una pagína web que al arrastrar la foto te muestre has arrastado la foto. (entregable)
 
 listeners 5: Crea usando la funcion addEventListeners una pagina web que en un campo de texto grabe lo escrito en la pagina cada vez que vamos escribiendo
+
+FECHAS
+fechas 1: Muestra la fecha en la pagina web
