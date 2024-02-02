@@ -268,6 +268,6 @@ listeners 1: Crea usando la función addEventListeners para vincular un evento c
 
 listeners 2: Crea usando la función addEventListeners una página web que al copiar el texto te muestre por consola, 'has copiado el texto'
 
-listeners 3:
+listeners 3: Crea usando la funcion addEventListeners una pagina web que tiene un input y quiere ejecutar una funcion como por ejemplo mostrarlo por consola cuando cambie su valor.
 
 listeners 4: Crea usando la función addEventListeners una pagína web que al arrastrar la foto te muestre has arrastado la foto. (entregable)
