@@ -279,6 +279,8 @@ fechas 1: Muestra la fecha en la pagina web
 
 fechas 2: Muestra la hora en formato más convencional
 
+fechas 3: Mejora el código anterior para que muestre la hora con 0
+
 ARRAYS 2
 arrays 1: Muestra en la pagina web los dias laborales de la semana
 
