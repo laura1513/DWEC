@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+            var fecha = new Date();
+            var horas = fecha.getHours();
+            var minutos = fecha.getMinutes();
+            var segundos = fecha.getSeconds();
+            if (horas < 10) {
+                horas = '0' + horas;
+            }
+            if (minutos < 10) {
+                minutos = '0' + minutos;
+            }
+            if (segundos < 10) {
+                segundos = '0' + segundos;
+            }
+            var msg = horas + ':' + minutos + ':' + segundos;
+            console.log(msg);
+            setTimeout(function() {
+                var fecha = new Date();
+                var horas = fecha.getHours();
+                var minutos = fecha.getMinutes();
+                var segundos = fecha.getSeconds();
+                if (horas < 10) {
+                    horas = '0' + horas;
+                }
+                if (minutos < 10) {
+                    minutos = '0' + minutos;
+                }
+                if (segundos < 10) {
+                    segundos = '0' + segundos;
+                }
+                var msg = horas + ':' + minutos + ':' + segundos;
+            console.log(msg);
+            }, 5000);
+    </script>
+</body>
+</html>
