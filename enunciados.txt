@@ -283,6 +283,8 @@ fechas 3: Mejora el código anterior para que muestre la hora con 0
 
 fechas 4: Que muestre la hora en formato 24h
 
+fechas 5: Realiza una pagina web que con innerHTML y utilizando la funcion getHours() te diga buenos días si es de mañana, buenas tardes si es de tarde o buenas noches si es de noche
+
 ARRAYS 2
 arrays 1: Muestra en la pagina web los dias laborales de la semana
 
