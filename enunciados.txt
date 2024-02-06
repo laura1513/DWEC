@@ -285,3 +285,9 @@ arrays 2: Recorrer el array de los dias de la semana
 arrays 3: Realiza un script que muestre un rombo en la pagina web
 
 arrays 4: Lo mismo pero siendo solo la forma
+
+arrays 5: Crea un script que tome una serie de palabras ingresadas por el usuario y almacene esas palabras en un array. Posteriormente,manipule ese array para mostrar en una nueva ventana los siguientes datos:
+                - La primera palabra ingresada por el usuario
+                - La ultima palabra ingresada por el usuario
+                - El numero de palabras presentes en el array
+                - Todas las palabras ordenadas alfabeticamente
