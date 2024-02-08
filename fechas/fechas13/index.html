@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="hora"></p><br>
+    <button id="iniciar">INICIAR</button>
+    <script>
+        var horas = 0;
+        var minutos = 0;
+        var segundos = 0;
+        function mostrarHora() {
+            segundos = segundos + 1;
+            if(segundos === 60) {
+                minutos = minutos + 1;
+                if (minutos === 60) {
+                    horas = horas + 1;
+                    minutos = 0;
+                }
+                segundos = 0;
+            }
+            var msg = horas + ':' + minutos + ':' + segundos;
+            document.getElementById("hora").innerHTML = msg;
+        }
+        document.getElementById("iniciar").onclick(function() {
+            setInterval(mostrarHora, 1000);
+        })
+    </script>
+</body>
+</html>
