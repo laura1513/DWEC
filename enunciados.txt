@@ -295,6 +295,8 @@ fechas 9: Crea un reloj en tu pagina web que se actualice cada segundo
 
 fechas 10: Realiza una pagina web que cambie el color del texto cada 2 seg
 
+fechas 11: Realiza una secuencia de imagenes que cambie cada 5 seg.
+
 ARRAYS 2
 arrays 1: Muestra en la pagina web los dias laborales de la semana
 

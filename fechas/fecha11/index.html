@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="imagen1.jpeg" alt="casauno" id="imagen" width="300px" height="200px">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var imagenActual = 1;
+            var cantidad = 10;
+            setInterval(function() {
+                var imagen = document.getElementById('imagen');
+                imagenActual = (imagenActual % cantidad) + 1;
+                imagen.src = "imagen" + imagenActual + ".jpeg"
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
