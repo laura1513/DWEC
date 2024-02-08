@@ -287,7 +287,9 @@ fechas 5: Realiza una pagina web que con innerHTML y utilizando la funcion getHo
 
 fechas 6: Realiza un programa que se te muestre la hora por consola y se te repita a los 5 seg.
 
-fehcas 7: Realiza un programa que te muestre por consola cada 5seg la hora y lo pare a los 20seg
+fechas 7: Realiza un programa que te muestre por consola cada 5seg la hora y lo pare a los 20seg
+
+fechas 8: Escribe un programa que muestre un recordatorio al usuario cada 5seg. Mientras el usuario pulse en aceptar el recordatorio continuará. Cuando el usuario pulse cancelar, el recordatorio se anulará
 
 ARRAYS 2
 arrays 1: Muestra en la pagina web los dias laborales de la semana
