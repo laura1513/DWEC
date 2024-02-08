@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="txt1">Voy a cambiar</h1>
+    <h1 id="txt2">Voy a desaparecer</h1>
+    <script>
+        var t1 = document.getElementById("txt1");
+        var t2 = document.getElementById("txt2");
+        setTimeout(desaparecer, 5000);
+
+        var intervalo = setInterval(cambiar, 3000);
+
+        setTimeout(function() {
+            clearInterval(intervalo);
+        }, 3000);
+
+        function desaparecer() {
+            t2.innerHTML = "";
+        }
+        function cambiar() {
+            t1.innerHTML = "He cambiado"
+        }
+    </script>
+</body>
+</html>
