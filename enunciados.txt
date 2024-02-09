@@ -331,3 +331,6 @@ objstr 2: Que te devuelva 'HolX mundo'
 
 OBJETOS JSON
 objson 1: Convierte un objeto javascript en json y que lo muestre por consola
+
+OBJETOS VENTANA
+ventanas 1: Genera un botón para abrir y cerrar una nueva ventana, escribe en la ventana emergente 'Ventana creada para publicidad'

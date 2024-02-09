@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="abrirVentana()">Abrir Ventana</button>
+    <button onclick="cerrarVentana()">Cerrar Ventana</button>
+    <script>
+        var ventana;
+        function abrirVentana() {
+            ventana = window.open("", "_blank", "width=400,height=200");
+            ventana.document.write("<h1>Ventana creada para publicidad</h1>");
+        }
+        function cerrarVentana() {
+            if(ventana) {
+                ventana.close();
+            }
+        }
+    </script>
+</body>
+</html>
