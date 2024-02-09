@@ -318,3 +318,6 @@ arrays 5: Crea un script que tome una serie de palabras ingresadas por el usuari
 
 COOKIES
 cookies 1: Crea un código que establece un valor en el almacenamiento local del navegador con la clave 'usuario' y el valor 'Dimas', luego muestra una alerta con el valor almacenado en la clave 'usuario'
+
+OBJETOS ARRAY:
+objarr 1: Crea un array [13,-5,-9,1,8,2] y devuelve solo los positivos. Muestralos en la pagina web con document.getElementById()
