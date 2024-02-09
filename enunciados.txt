@@ -315,3 +315,6 @@ arrays 5: Crea un script que tome una serie de palabras ingresadas por el usuari
                 - La ultima palabra ingresada por el usuario
                 - El numero de palabras presentes en el array
                 - Todas las palabras ordenadas alfabeticamente
+
+COOKIES
+cookies 1: Crea un código que establece un valor en el almacenamiento local del navegador con la clave 'usuario' y el valor 'Dimas', luego muestra una alerta con el valor almacenado en la clave 'usuario'
