@@ -339,3 +339,6 @@ OBJETOS TIPO / NAVIGATOR
 objnav 1: Comprueba estos objetos Navigator por consola
 
 objnav 2: Comprueba sobre el navegador si está preparada para la ejecución de programas escritos en Java
+
+OBJETOS TIPO / SCREEN
+objscr 1: Muestra por pantalla la altura total, altura disponible, anchura total, anchura disponible y la profundidad del color
