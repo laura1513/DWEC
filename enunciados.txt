@@ -328,3 +328,6 @@ OBJETOS STRING
 objstr 1: Utilizando las funciones anteriores (var str = "Hola mundo"), que te devuelve 'ola'
 
 objstr 2: Que te devuelva 'HolX mundo'
+
+OBJETOS JSON
+objson 1: Convierte un objeto javascript en json y que lo muestre por consola
