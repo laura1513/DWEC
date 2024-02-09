@@ -333,6 +333,9 @@ OBJETOS TIPO / JSON
 objson 1: Convierte un objeto javascript en json y que lo muestre por consola
 
 OBJETOS TIPO / VENTANA
-ventanas 1: Genera un botón para abrir y cerrar una nueva ventana, escribe en la ventana emergente 'Ventana creada para publicidad'
+objven 1: Genera un botón para abrir y cerrar una nueva ventana, escribe en la ventana emergente 'Ventana creada para publicidad'
 
 OBJETOS TIPO / NAVIGATOR
+objnav 1: Comprueba estos objetos Navigator por consola
+
+objnav 2: Comprueba sobre el navegador si está preparada para la ejecución de programas escritos en Java
