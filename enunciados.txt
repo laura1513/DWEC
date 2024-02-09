@@ -319,18 +319,18 @@ arrays 5: Crea un script que tome una serie de palabras ingresadas por el usuari
 COOKIES
 cookies 1: Crea un código que establece un valor en el almacenamiento local del navegador con la clave 'usuario' y el valor 'Dimas', luego muestra una alerta con el valor almacenado en la clave 'usuario'
 
-OBJETOS ARRAY:
+OBJETOS TIPO / ARRAY:
 objarr 1: Crea un array [13,-5,-9,1,8,2] y devuelve solo los positivos. Muestralos en la pagina web con document.getElementById()
 
 objarr 2: Devuelve solo el primer numero natural deol array anterior
 
-OBJETOS STRING
+OBJETOS TIPO / STRING
 objstr 1: Utilizando las funciones anteriores (var str = "Hola mundo"), que te devuelve 'ola'
 
 objstr 2: Que te devuelva 'HolX mundo'
 
-OBJETOS JSON
+OBJETOS TIPO / JSON
 objson 1: Convierte un objeto javascript en json y que lo muestre por consola
 
-OBJETOS VENTANA
+OBJETOS TIPO / VENTANA
 ventanas 1: Genera un botón para abrir y cerrar una nueva ventana, escribe en la ventana emergente 'Ventana creada para publicidad'
