@@ -321,3 +321,5 @@ cookies 1: Crea un código que establece un valor en el almacenamiento local del
 
 OBJETOS ARRAY:
 objarr 1: Crea un array [13,-5,-9,1,8,2] y devuelve solo los positivos. Muestralos en la pagina web con document.getElementById()
+
+objarr 2: Devuelve solo el primer numero natural deol array anterior
