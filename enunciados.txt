@@ -295,7 +295,7 @@ fechas 9: Crea un reloj en tu pagina web que se actualice cada segundo
 
 fechas 10: Realiza una pagina web que cambie el color del texto cada 2 seg
 
-fechas 11: Realiza una secuencia de imagenes que cambie cada 5 seg.
+fechas 11: Realiza una secuencia de imagenes que cambie cada 5 seg
 
 fechas 12: Realiza una pagina web con dos mensajes, uno cambiará a los 3 segundos y el otro deaparecerá a los 5
 
