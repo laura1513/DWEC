@@ -342,3 +342,6 @@ objnav 2: Comprueba sobre el navegador si está preparada para la ejecución de 
 
 OBJETOS TIPO / SCREEN
 objscr 1: Muestra por pantalla la altura total, altura disponible, anchura total, anchura disponible y la profundidad del color
+
+OBJETOS TIPO / LOCATION
+objloc1: Mostrar en pantalla un documento que nos muestre lo siguiente:

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var navegador = navigator.appName;
+        var noSoporta;
+        var altPantalla = screen.height;
+        var anchPantalla = screen.width;
+        var url = location.href;
+
+        if(navigator.javaEnabled()) {
+            noSoporta = ""
+        } else {
+            noSoporta = "no"
+        }
+
+        document.write("Tu navegador es: " + navegador + "<br>" +
+        "Tu navegador " + noSoporta + " soporta: " + "<br>" + 
+        "La altura de tu pantalla es: " + altPantalla + "<br>" + 
+        "La anchura de tu pantalla es: " + anchPantalla + "<br>" + 
+        "La URL completa es: " + url + "<br>");
+    </script>
+    <!--<input type="button" value="wikipedia" onclick="location.assign('https://es.wikipedia.org/')">-->
+</body>
+</html>
