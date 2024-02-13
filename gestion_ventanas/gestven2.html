@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abrir Ventana con Propiedades</title>
+  <script>
+    function abrirVentana() {
+      var nuevaVentana = window.open("", "Test", "width=300, height=200");
+      nuevaVentana.document.write("<h1>Se usan las propiedades:</h1>");
+      nuevaVentana.document.write("<p>height=200 y width=300</p>");
+      nuevaVentana.document.write("<button onclick='window.close()'>Cerrar Ventana</button>");
+    }
+  </script>
+</head>
+<body>
+  <button onclick="abrirVentana()">Abrir Ventana</button>
+</body>
+</html>
