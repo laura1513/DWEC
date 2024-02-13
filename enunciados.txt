@@ -353,3 +353,6 @@ OBJETOS TIPO / LOCATION
 objloc1: Mostrar en pantalla un documento que nos muestre lo siguiente:
 
 objloc2: Realiza un programa sencillo que calcule el area de un circulo, ademas hay que generar un botón que al tocarlo refresque la pagina
+
+GESTIÓN DE VENTANAS
+gestvent1: Genera un botón que al pulsarlo abra una ventana de ancho 300 y alto 200 y escribe en esa pagina web que se usan las propiedades: height=200 y width=300, el nombre de la ventana será 'Test'
