@@ -295,11 +295,17 @@ fechas 9: Crea un reloj en tu pagina web que se actualice cada segundo
 
 fechas 10: Realiza una pagina web que cambie el color del texto cada 2 seg
 
-fechas 11: Realiza una secuencia de imagenes que cambie cada 5 seg.
+fechas 11: Realiza una secuencia de imagenes que cambie cada 5 seg
 
 fechas 12: Realiza una pagina web con dos mensajes, uno cambiará a los 3 segundos y el otro deaparecerá a los 5
 
 fechas 13: Basandote en el codigo expuesto, crea tu propio cronometro
+
+fechas 14: Crea una cuenta atrás
+
+fechas 15: Crea una página web con un script que calcule los milisegundos que han pasado desde las 00:00 del 1 de Enero de 2019 hasta la fecha actual.
+
+fechas 16:  Crea una página web con un botón para encender una alarma 60s y otro para pararla.
 
 ARRAYS 2
 arrays 1: Muestra en la pagina web los dias laborales de la semana

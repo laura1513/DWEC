@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cronómetro</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    #cronometro {
+        font-size: 2em;
+        margin: 20px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 1em;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+<div id="cronometro">00:00:00</div>
+<button onclick="start()">Iniciar</button>
+<button onclick="stop()">Detener</button>
+<button onclick="reset()">Reiniciar</button>
+
+<script>
+    let tiempoInicio;
+    let running = false;
+
+    function stop() {
+        clearInterval(tiempoInicio);
+            running = false;
+    }
+    function start() {
+            tiempoInicio = setInterval(actualizarCronometro, 1000);
+            running = true;
+    }
+
+    function reset() {
+        clearInterval(tiempoInicio);
+        document.getElementById('cronometro').innerHTML = '00:00:00';
+        running = false;
+    }
+
+    function actualizarCronometro() {
+        let cronometro = document.getElementById('cronometro');
+        let tiempoActual = cronometro.innerHTML;
+        let partesTiempo = tiempoActual.split(':');
+        let horas = parseInt(partesTiempo[0]);
+        let minutos = parseInt(partesTiempo[1]);
+        let segundos = parseInt(partesTiempo[2]);
+
+        segundos++;
+
+        if (segundos >= 60) {
+            segundos = 0;
+            minutos++;
+        }
+
+        if (minutos >= 60) {
+            minutos = 0;
+            horas++;
+        }
+
+        cronometro.innerHTML = 
+            (horas < 10 ? '0' + horas : horas) + ':' +
+            (minutos < 10 ? '0' + minutos : minutos) + ':' +
+            (segundos < 10 ? '0' + segundos : segundos);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de Milisegundos</title>
+</head>
+<body>
+<h1>Calculadora de Milisegundos</h1>
+<div id="milisegundos"></div>
+
+<script>
+    const fechaInicio = new Date('2019-01-01T00:00:00Z').getTime();
+    const fechaActual = new Date().getTime();
+    const milisegundosTranscurridos = fechaActual - fechaInicio;
+    document.getElementById('milisegundos').innerHTML = milisegundosTranscurridos.toLocaleString() + " milisegundos han pasado desde el 1 de Enero de 2019 hasta la fecha actual.";
+</script>
+</body>
+</html>

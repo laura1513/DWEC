@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cuenta Atrás de 30 Segundos</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    #countdown {
+        font-size: 2em;
+        margin: 20px;
+    }
+</style>
+</head>
+<body>
+<div id="countdown">00:30</div>
+
+<script>
+    let tiempoRestante = 30;
+
+    let intervalo = setInterval(function() {
+        tiempoRestante--;
+        const minutos = Math.floor(tiempoRestante / 60);
+        const segundos = tiempoRestante % 60;
+        document.getElementById('countdown').innerHTML = 
+            (minutos < 10 ? '0' + minutos : minutos) + ':' +
+            (segundos < 10 ? '0' + segundos : segundos);
+            if (tiempoRestante <= 0) {
+            clearInterval(intervalo);
+            document.getElementById('countdown').innerHTML = "00:00";
+          }
+    }, 1000);
+</script>
+</body>
+</html>
