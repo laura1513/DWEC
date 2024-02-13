@@ -351,3 +351,5 @@ objscr 1: Muestra por pantalla la altura total, altura disponible, anchura total
 
 OBJETOS TIPO / LOCATION
 objloc1: Mostrar en pantalla un documento que nos muestre lo siguiente:
+
+objloc2: Realiza un programa sencillo que calcule el area de un circulo, ademas hay que generar un botón que al tocarlo refresque la pagina
