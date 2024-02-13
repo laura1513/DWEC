@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alarma</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    #alarma {
+        font-size: 2em;
+        margin: 20px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 1em;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body onload="activarAlarma()">
+    <div id="alarma"></div>
+<script>
+    let intervalo;
+    let tiempoRestante = 10;
+    let alarmaActivada = false;
+
+    function activarAlarma() {
+        if (!alarmaActivada) {
+            intervalo = setInterval(actualizarTiempo, 1000);
+            alarmaActivada = true;
+        }
+    }
+
+    function actualizarTiempo() {
+        if (tiempoRestante > 0) {
+            tiempoRestante--;
+            actualizarInterfaz();
+        } else {
+            clearInterval(intervalo);
+            window.close();
+            alarmaActivada = false;
+        }
+    }
+
+    function actualizarInterfaz() {
+        document.getElementById('alarma').innerHTML = "Tiempo restante: " + tiempoRestante + " segundos";
+    }
+</script>
+</body>
+</html>

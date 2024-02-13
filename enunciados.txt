@@ -362,3 +362,5 @@ gestvent2: Un botón de cerrar en la ventana emergente
 gestvent3: Crear varias ventanas emergentes
 
 gestvent4: Crea una web con dos botones, que al pulsar uno se abra la pagina de Google y otro botón que te lo cierre
+
+gestvent5: Ventana emergente con un temporizador que al acabar cierre la ventana automaticamente
