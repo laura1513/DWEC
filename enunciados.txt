@@ -375,3 +375,5 @@ form3: Si te acepta la contraseña te debe abrir la pagina web de google
 form4: Genera el siguiente formulario
 
 form5: Realiza un desplegable con tres parametros
+
+form6: Crea una caja de texto con un nombre con un botón que al pulsarlo te muestre en la pagina web 'Hola bon dia'
