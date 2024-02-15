@@ -16,15 +16,14 @@
         function confirmar() {
             var p1 = document.getElementById("pass1").value;
             var p2 = document.getElementById("pass2").value;
-            console.log(p1 + " " + p2)
             if (p1 === p2) {
                 var txt = "Contraseña correcta"
-                txt.style.color = 'green';
                 document.getElementById("error").innerHTML = txt;
+                document.getElementById("error").style.color = 'green';
             } else {
                 var txt = "Contraseña incorrecta"
-                txt.style.color = 'red';
                 document.getElementById("error").innerHTML = txt;
+                document.getElementById("error").style.color = 'red';
             }
         }
         
