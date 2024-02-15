@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.google.com/" method="get">
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad"><br>
+        <button onclick="validar()">Validar</button>
+        <p id="txt"></p>
+    </form>
+    <script>
+        function validar() {
+            var t = document.getElementById("edad").value;
+            if (t >= 18) {
+                
+            } else {
+                document.getElementById("txt").innerHTML = "Debes ser mayor de edad"
+            }
+        }
+    </script>
+</body>
+</html>
