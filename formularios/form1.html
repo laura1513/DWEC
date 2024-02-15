@@ -8,8 +8,18 @@
 <body>
     <form>
         <label for="pregunta">2 +2</label><br>
-        <input type="checkbox" value="4" onclick="if(this.checked === true){alert('Has acertado'), this.checked=false}">4 <br>
-        <input type="checkbox" value="6" id="fallo" onclick="if(this.checked === true){alert('Has fallado'), this.checked=false}">6 
+        <input type="checkbox" value="4" id="acierto" onchange="verificar()">4 <br>
+        <input type="checkbox" value="6" id="fallo" onchange="verificar()">6 
     </form>
+    <script>
+        var c = document.getElementById("acierto");
+        var f = document.getElementById("fallo");
+        if (c.checked) {
+            alert("Correcto")
+        }
+        if (f.checked) {
+            alert("Correcto")
+        }
+    </script>
 </body>
 </html>
