@@ -367,3 +367,5 @@ gestvent5: Ventana emergente con un temporizador que al acabar cierre la ventana
 
 FORMULARIOS
 form1: Realiza un programa que al clickar un checkbox, te diga si la respuesta es correcta o no
+
+form2: Genera en javascript una pagina web que te verifique una contraseña
