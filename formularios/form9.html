@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Formulario</h1>
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="Nombre"><br>
+        <button onclick="enviar()">Enviar datos</button>
+    </form>
+    <script>
+        function enviar() {
+            var conf = confirm("Estas seguro?");
+
+            if(conf) {
+                window.open("https://www.uji.es/", "_blank");
+            }
+        }
+    </script>
+</body>
+</html>
