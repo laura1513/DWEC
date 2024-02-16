@@ -387,3 +387,5 @@ form9: Crea un formulario interactivo que solicite al usuario  su nombre y le pi
 form10: Realiza una pagina web con un campo de texto que al introducir un campo, por ejemplo 'humano' y abandones el campo te diga 'eres un humano', planta 'eres un vegetal', animal 'eres un animal' o 'eres una especie desconocida'
 
 form11: Desarrolla una pagina web interactiva que actue como una calculadora de fórmulas matematicas, permitiendo al usuario ingresar una expresión matematica en un campo de texto, evaluarla al hacere click en un botón y mostrar el resultado en otro campo de texto
+
+form12: Crear un programa en una pagina we donde el usuario introduce su altura(cm), edad, sexo y peso actual, debe aparecer un botón de calcular y oreo de reset. El programa responde con una referencia de peso aproximado

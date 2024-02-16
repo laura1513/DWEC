@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Peso</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora de Peso</h2>
+        <label for="altura">Altura (cm):</label>
+        <input type="number" id="altura" placeholder="Ingrese su altura en cm"><br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" placeholder="Ingrese su edad"><br>
+        <label for="sexo">Sexo:</label>
+        <select id="sexo">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+        </select><br>
+        <label for="peso">Peso actual (kg):</label>
+        <input type="number" id="peso" placeholder="Ingrese su peso actual en kg"><br>
+        <button onclick="calcularPeso()">Calcular</button>
+        <button onclick="resetForm()">Reset</button>
+        <p id="resultado"></p>
+    </div>
+
+    <script>
+        function calcularPeso() {
+            var altura = parseInt(document.getElementById("altura").value);
+            var edad = parseInt(document.getElementById("edad").value);
+            var sexo = document.getElementById("sexo").value;
+            var peso = parseInt(document.getElementById("peso").value);
+            var pesoReferencia = calcularPesoReferencia(altura, edad, sexo);
+
+            document.getElementById("resultado").innerText = "Su peso aproximado debería ser " + pesoReferencia + " kg.";
+        }
+
+        function calcularPesoReferencia(altura, edad, sexo) {
+            if (sexo === "hombre") {
+                return 50 + ((altura - 150) / 4) * 3 + ((edad - 20) / 4);
+            } else {
+                return 50 + ((altura - 150) / 4) * 3 + ((edad - 20) / 4) * 0.9;
+            }
+        }
+
+        function resetForm() {
+            document.getElementById("altura").value = "";
+            document.getElementById("edad").value = "";
+            document.getElementById("sexo").value = "hombre";
+            document.getElementById("peso").value = "";
+            document.getElementById("resultado").innerText = "";
+        }
+    </script>
+</body>
+</html>
