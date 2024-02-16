@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario de ejemplo</title>
+<script>
+function validarFormulario() {
+    var nombre = document.getElementById("nombre").value;
+    var checkbox = document.getElementById("checkbox").checked;
+    var fecha = document.getElementById("fecha").value;
+    var telefono = document.getElementById("telefono").value;
+    
+    if (nombre === "") {
+        alert("Por favor, ingrese su nombre.");
+        return false;
+    }
+    
+    if (!checkbox) {
+        alert("Por favor, marque el checkbox.");
+        return false;
+    }
+    
+    if (isNaN(fecha)) {
+        alert("La fecha debe ser un valor numérico.");
+        return false;
+    }
+    
+    if (isNaN(telefono)) {
+        alert("El teléfono debe ser un valor numérico.");
+        return false;
+    }
+    
+    var aceptar = confirm("¿Está seguro de enviar este formulario?");
+    return aceptar;
+}
+</script>
+</head>
+<body>
+<form action="procesar.php" method="POST" onsubmit="return validarFormulario()">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+    
+    <input type="checkbox" id="checkbox" name="checkbox" required>
+    <label for="checkbox">Acepto los términos y condiciones</label><br><br>
+    
+    <label for="fecha">Fecha:</label>
+    <input type="text" id="fecha" name="fecha" required><br><br>
+    
+    <label for="telefono">Teléfono:</label>
+    <input type="text" id="telefono" name="telefono" required><br><br>
+    
+    <input type="submit" value="Enviar">
+</form>
+</body>
+</html>
