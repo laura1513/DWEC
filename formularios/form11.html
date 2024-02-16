@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="formula">Escribe una formula matematica:</label>
+    <input type="text" name="formula" id="formula">
+    <button onclick="calcular()">Ejecuta</button><br>
+    <label for="resultado">Resultado</label>
+    <input type="text" name="resultado" id="resultado"><br>
+
+    <button onclick="limpiar()">Reset</button>
+    <script>
+        function calcular() {
+            var f = document.getElementById("formula").value;
+            var r = document.getElementById("resultado");
+
+            r.value = eval(f);
+        }
+        function limpiar() {
+            document.getElementById("formula").value = "";
+            document.getElementById("resultado").value = "";
+        }
+    </script>
+</body>
+</html>
