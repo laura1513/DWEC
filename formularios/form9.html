@@ -3,21 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        input {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        button {
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
-    <form>
-        <h1>Formulario</h1>
-        <label for="name">Nombre</label>
-        <input type="text" name="name" id="Nombre"><br>
-        <button onclick="enviar()">Enviar datos</button>
-    </form>
-    <script>
-        function enviar() {
-            var conf = confirm("Estas seguro?");
 
-            if(conf) {
-                window.open("https://www.uji.es/", "_blank");
+       <!--Crea un formulario interactivo que solicite al usuario su nombre y le pida confirmación antes de enviar los datos. 
+        El formulario debe cumplir los siguientes requisitos:
+        
+        Presentar un título que indique "Formulario"
+        Incluir un campo de entrada de texto donde el usuario pueda ingresar su nombre
+        Proporciona el botón de envio con el texto "Envíar datos"
+        Al hacer clic en el botón de envío, el formulario debe mostrar un mensaje de confirmación que diga "¿Estás seguro de que quieres enviar ahora?"
+        El mensaje de confirmación debe incluir las opciones "Aceptar" y "Cancelar"
+        Si el usuario hace click en "Aceptar", el formulario debe envíar los datos al servidor de la uji y redirigirte a esta ( enlace: https://www.uji.es/). Si hace click en "Cancelar", el formulario no debe enviar los datos
+        Desarrolla el formulario usando HTML y JS
+    -->
+    <h1>Formulario</h1>
+
+    <form id="miFormulario" onsubmit="return confirmarEnvio()">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <button type="submit">Enviar datos</button>
+    </form>
+
+    <script>
+        function confirmarEnvio() {
+            var confirmacion = confirm("¿Estás seguro de que quieres enviar ahora?");
+
+            if (confirmacion) {
+                alert("Datos enviados al servidor de la UJI");
+                window.location.href = "https://www.uji.es/";  // Redirige a la página de la UJI
+                return false;  // Evita el envío del formulario
+            } else {
+                alert("Envío cancelado");
+                return false;  // Cancela el envío del formulario
             }
         }
     </script>
