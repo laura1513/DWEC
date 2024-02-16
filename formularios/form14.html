@@ -19,7 +19,7 @@
         <input type="text" id="apellidos" name="apellidos" required>
     </div>
     <div>
-        <label for="nif">NIF/NIE:</label>
+        <label for="nif">DNI:</label>
         <input type="text" id="nif" name="nif" required>
     </div>
     <div>
@@ -28,11 +28,6 @@
 </form>
 
 <script>
-function validarNIFNIE(nif) {
-    // Expresión regular para validar NIF/NIE en España
-    var regexNIFNIE = /^[XYZ]?\d{7,8}[A-Z]$/;
-    return regexNIFNIE.test(nif);
-}
 
 function calcularLetraDNI(dni) {
     var letras = 'TRWAGMYFPDXBNJZSQVHLCKE';
@@ -47,7 +42,11 @@ function validarDNI(dni) {
     var numero = dni.substring(0, 8);
     var letra = dni.charAt(8).toUpperCase();
     var letraCalculada = calcularLetraDNI(numero);
-    return letra === letraCalculada;
+    if (letra === letraCalculada) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
 function validarFormulario() {
@@ -55,12 +54,11 @@ function validarFormulario() {
     var apellidos = document.getElementById('apellidos').value.trim();
     var nif = document.getElementById('nif').value.trim();
 
-    if (!validarNIFNIE(nif) && !validarDNI(nif)) {
+    if (!validarDNI(nif)) {
         alert('El NIF/NIE ingresado no es válido.');
-        return false; // Detener el envío del formulario
+        return false;
     }
-
-    // Si se llega aquí, significa que todo está correcto y el formulario se puede enviar
+    alert("Formulario correcto")
     return true;
 }
 </script>
