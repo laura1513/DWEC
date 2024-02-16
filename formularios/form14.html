@@ -34,12 +34,28 @@ function validarNIFNIE(nif) {
     return regexNIFNIE.test(nif);
 }
 
+function calcularLetraDNI(dni) {
+    var letras = 'TRWAGMYFPDXBNJZSQVHLCKE';
+    var numero = dni % 23;
+    var letra = letras.charAt(numero);
+    return letra;
+}
+
+function validarDNI(dni) {
+    var regexDNI = /^\d{8}[A-Z]$/;
+    if (!regexDNI.test(dni)) return false;
+    var numero = dni.substring(0, 8);
+    var letra = dni.charAt(8).toUpperCase();
+    var letraCalculada = calcularLetraDNI(numero);
+    return letra === letraCalculada;
+}
+
 function validarFormulario() {
     var nombre = document.getElementById('nombre').value.trim();
     var apellidos = document.getElementById('apellidos').value.trim();
     var nif = document.getElementById('nif').value.trim();
 
-    if (!validarNIFNIE(nif)) {
+    if (!validarNIFNIE(nif) && !validarDNI(nif)) {
         alert('El NIF/NIE ingresado no es válido.');
         return false; // Detener el envío del formulario
     }
