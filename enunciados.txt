@@ -383,3 +383,5 @@ form7: Realiza un campo que al introducir tu edad te diga que eres bienvenido si
 form8: Realiza un campo que al introducir tu edad te lleve a la pagina de google con action si eres mayor de edad
 
 form9: Crea un formulario interactivo que solicite al usuario  su nombre y le pida confirmación antes de enviar los datos. El formulario debe cumplir los requisitos
+
+form10: Realiza una pagina web con un campo de texto que al introducir un campo, por ejemplo 'humano' y abandones el campo te diga 'eres un humano', planta 'eres un vegetal', animal 'eres un animal' o 'eres una especie desconocida'

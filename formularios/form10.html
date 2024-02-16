@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="name">¿Que eres?</label>
+    <input type="text" name="name" id="name" onblur="mostrar()">
+    <script>
+        function mostrar() {
+            var t = document.getElementById("name").value;
+            switch(t) {
+                case 'humano':
+                    alert("Eres humano")
+                    break;
+                case 'planta':
+                    alert("Eres un vegetal")
+                    break;
+                case 'animal':
+                    alert("Eres un animal")
+                    break;
+                default:
+                    alert("Eres una especie desconocida");
+                    break;
+            }
+        }
+    </script>
+</body>
+</html>
