@@ -402,3 +402,5 @@ dom1: Crea una pagina web con 3 textos que cambie el color del tercero cuando se
 dom2: Crea una pagina web con 3 textos que al pulsar un boton se elimine el primero
 
 dom3: Crea una lista ordenada de 3 elementos, selecciona el elemento central y muestra por consola en nextsibling y el prevoussibling
+
+dom4: Supongamos que tenemos un documento HTML con un elemento div, agrega un parrafo dentro con createElement
