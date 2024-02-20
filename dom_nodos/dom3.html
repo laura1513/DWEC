@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        <li>Texto 1</li>
+        <li>Texto 2</li>
+        <li>Texto 3</li>
+    </ol>
+    <script>
+        var t = document.getElementsByTagName("li")[1];
+        var pre = t.previousSibling.textContent;
+        var next = t.nextSibling.textContent;
+
+        console.log("Previous: " + pre);
+        console.log("Next: " + next);
+    </script>
+</body>
+</html>
