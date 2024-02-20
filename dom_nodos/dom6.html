@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eliminar Párrafos</title>
+</head>
+<body>
+
+<div id="container">
+  <p>Este es el primer párrafo.</p>
+  <p>Este es el segundo párrafo.</p>
+  <p>Este es el tercer párrafo.</p>
+  <button id="eliminar">Eliminar un párrafo</button>
+</div>
+
+<script>
+document.getElementById("eliminar").addEventListener("click", function() {
+  var parrafos = document.getElementsByTagName("p");
+  if(parrafos.length > 0) {
+    parrafos[0].remove();
+  } else {
+    alert("¡No hay más párrafos para eliminar!");
+  }
+});
+</script>
+
+</body>
+</html>
