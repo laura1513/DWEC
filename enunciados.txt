@@ -393,3 +393,5 @@ form12: Crear un programa en una pagina we donde el usuario introduce su altura(
 form13: Realiza un formulario sencillo en el que el campo nombre no pueda estar vacio, el checkbox deba estar clicado y la fecha y teléfono tienen que ser un valor númerico(todos estos campos te los mostrará con un alert cuando no se cumplan). Una vez pulsado enviar te debe pedir aceptación. Especifica la URL a la que se enviarán los datos del formulario cuando se envíe(procesar.php), se utilizará el método POST, lo que significa que los datos del formulario se enviarán en el cuerpo de la solicitud HTTP.
 
 form14: Crea un formulario con tres campos,para nombre, apellidos y NIF/NIE y sus correspondientes etiquetas. Los tres campos deben ser obligatorios. Debes usar una lógica antes del envío, si el NIF o NIE es correcto. Si es número no es correcto, se mostrará un mensaje mediante un alert, si es correcto se enviará, los campos de nombre deben ser obligatorios.
+
+entregable: formulario para entregar

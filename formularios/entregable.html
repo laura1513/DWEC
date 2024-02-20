@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario</title>
+</head>
+<body>
+<form id="formulario">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" autofocus required><br><br>
+    
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" id="apellidos" name="apellidos" autofocus required><br><br>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" required><br><br>
+
+    
+    <label for="dni">DNI:</label>
+    <input type="text" id="dni" name="dni" required><br><br>
+    
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" required min="0" max="120"><br><br>
+    
+    <label for="sexo">Sexo</label><br>
+    <input type="radio" id="mujer" name="sexo" value="mujer">
+    <label for="mujer">Mujer</label><br>
+    <input type="radio" id="hombre" name="sexo" value="hombre">
+    <label for="hombre">Hombre</label><br>
+
+    <label for="foto">Mi foto:</label>
+    <input type="file" id="foto" name="foto" accept="image/*"><br><br>
+
+    <input type="checkbox" id="publi">
+    <label for="publi">Enviar publicidad</label><br><br>
+
+    <label for="aficiones">Aficiones:</label>
+    <select id="aficiones" name="aficiones" onchange="mostrarDatosAficiones()">
+        <option value="musica">Música</option>
+        <option value="lectura">Lectura</option>
+        <option value="deporte">Deporte</option>
+    </select><br><br>
+    
+    <label for="observaciones">Observaciones:</label><br>
+    <textarea id="observaciones" name="observaciones" maxlength="15"></textarea><br><br>
+    
+    <button type="submit">Guardar Cambios</button>
+    <button type="reset">Borrar datos introducidos</button>
+</form>
+
+<script>
+function mostrarDatosAficiones() {
+    var select = document.getElementById("aficiones");
+    var longitud = select.options.length;
+    var indiceSeleccionado = select.selectedIndex;
+    var valorSeleccionado = select.options[indiceSeleccionado].text;
+    alert("La longitud de la lista es " + longitud + "\n" +
+          "El índice seleccionado es el " + indiceSeleccionado + "\n" +
+          "El valor del índice seleccionado es " + valorSeleccionado);
+}
+</script>
+</body>
+</html>
