@@ -6,11 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <div></div>
+    <div id="myDIV">
+    </div>
     <script>
+        // Create element:
         const para = document.createElement("p");
         para.innerHTML = "This is a paragraph.";
-        document.getElementsByTagName("div").appendChild(para);
+        document.getElementById("myDIV").appendChild(para);
     </script>
 </body>
 </html>
