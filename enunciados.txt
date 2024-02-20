@@ -408,3 +408,5 @@ dom4: Supongamos que tenemos un documento HTML con un elemento div, agrega un pa
 dom5: Unsa replaceChild para remplazar el primer texto de 2 textos por uno nuevo en JavaScript al pulsar un botón
 
 dom6: Genera una pagina web con 3 parrafos y un boton para eliminar uno a uno
+
+dom7: Realiza una pagina web que al pulsar sobre ella se vayan creando nodos hijos

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crear Nodos Hijos</title>
+</head>
+<body>
+
+<div id="container">
+  <p>Haz clic en la página para crear un nuevo nodo hijo:</p>
+</div>
+
+<script>
+document.addEventListener("click", function() {
+  var container = document.getElementById("container");
+  var newNode = document.createElement("div");
+  newNode.className = "nodo";
+  newNode.textContent = "Nuevo Nodo";
+  container.appendChild(newNode);
+});
+</script>
+
+</body>
+</html>
