@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="contenedor">
+        <p>Texto uno</p>
+        <p>Texto dos</p>
+    </div>
+    
+    <button onclick="reemplazarTexto()">Reemplazar Texto</button>
+    <script>
+        function reemplazarTexto() {
+        // Obtener el elemento contenedor
+        var contenedor = document.getElementById('contenedor');
+
+        // Obtener el primer párrafo dentro del contenedor
+        var primerParrafo = contenedor.getElementsByTagName('p')[0];
+
+        // Crear un nuevo nodo de texto
+        var nuevoTexto = document.createTextNode('Texto nuevo');
+
+        // Reemplazar el nodo de texto del primer párrafo con el nuevo nodo de texto
+        primerParrafo.replaceChild(nuevoTexto, primerParrafo.firstChild);
+        }
+
+    </script>
+</body>
+</html>
