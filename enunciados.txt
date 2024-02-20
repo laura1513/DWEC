@@ -398,3 +398,5 @@ entregable: formulario para entregar
 
 NODOS DOM
 dom1: Crea una pagina web con 3 textos que cambie el color del tercero cuando se presione un boton
+
+dom2: Crea una pagina web con 3 textos que al pulsar un boton se elimine el primero
