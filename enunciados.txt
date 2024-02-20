@@ -395,3 +395,6 @@ form13: Realiza un formulario sencillo en el que el campo nombre no pueda estar 
 form14: Crea un formulario con tres campos,para nombre, apellidos y NIF/NIE y sus correspondientes etiquetas. Los tres campos deben ser obligatorios. Debes usar una lógica antes del envío, si el NIF o NIE es correcto. Si es número no es correcto, se mostrará un mensaje mediante un alert, si es correcto se enviará, los campos de nombre deben ser obligatorios.
 
 entregable: formulario para entregar
+
+NODOS DOM
+dom1: Crea una pagina web con 3 textos que cambie el color del tercero cuando se presione un boton
