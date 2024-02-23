@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="fondo">
+    <p id="texto">Hola Kiko ponme buena nota porfavor</p>
+    <button onclick="color()">Cambiar color</button>
+    <button onclick="fondo()">Cambiar fondo</button>
+    <button onclick="iniciales()">Valores iniciales</button>
+    <script>
+        var t = document.getElementById("texto");
+        var f = document.getElementById("fondo");
+        function color() {
+            t.style.color = "lightblue";
+        }
+        function fondo() {
+            f.style.backgroundColor = "lightgreen";
+        }
+        function iniciales() {
+            t.style.color="";
+            f.style.backgroundColor="";
+        }
+    </script>
+</body>
+</html>

@@ -305,7 +305,7 @@ fechas 14: Crea una cuenta atrás
 
 fechas 15: Crea una página web con un script que calcule los milisegundos que han pasado desde las 00:00 del 1 de Enero de 2019 hasta la fecha actual.
 
-fechas 16:  Crea una página web con un botón para encender una alarma 60s y otro para pararla.
+fechas 16: Crea una página web con un botón para encender una alarma 60s y otro para pararla.
 
 ARRAYS 2
 arrays 1: Muestra en la pagina web los dias laborales de la semana

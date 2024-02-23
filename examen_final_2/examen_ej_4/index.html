@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="texto" style="font-size: 12px;">Hola mundo</p>
+    <button onclick="ampliar()">Ampliar texto</button>
+    <button onclick="disminuir()">Disminuir texto</button>
+    <button onclick="iniciales()">Valores inciales texto</button>
+    <script>
+        var size = 12;
+        var sizeOriginal = 12;
+        var t = document.getElementById("texto");
+        function ampliar() {
+            size += 1;
+            if (size > 24) {
+                alert ("Has superado el doble");
+                size = 24;
+            }
+            t.style.fontSize = size + "px";
+        }
+        function disminuir() {
+            size -= 1;
+            if (size < 6) {
+                alert ("Has superado la mitad");
+                size = 6
+            }
+            t.style.fontSize = size + "px";
+        }
+        function iniciales() {
+            t.style.fontSize = sizeOriginal + "px";
+        }
+    </script>
+</body>
+</html>

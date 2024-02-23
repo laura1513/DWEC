@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="procesar.php" method="post">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" required><br>
+        <label for="telf">Telefono</label>
+        <input type="tel" name="telf" id="telf" maxlength="9" minlength="9"><br>
+        <label for="fecha">Fecha de nacimiento</label>
+        <input type="number" name="dia" id="dia" min="1" max="31">
+        <input type="number" name="mes" id="mes" min="1" max="12">
+        <input type="number" name="anyo" id="anyo" max="2024"><br>
+        <label for="sexo">Sexo</label>
+        <input type="radio" name="hombre" id="hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="mujer" id="mujer">
+        <label for="mujer">Mujer</label><br>
+        <label for="mayor">Mayor de 18</label>
+        <input type="checkbox" name="mayor" id="mayor"><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+    <script>
+        var form = document.querySelector("form");
+        form.addEventListener("submit", function() {
+            if(!form.checkValidity) {
+                alert("Rellena todos los datos");
+                event.preventDefault();
+            } else {
+                if(!confirm("Quieres enviar los datos?")) {
+                    event.preventDefault();
+                }
+            }
+        })
+    </script>
+</body>
+</html>
