@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación de párrafos</title>
+    <style>
+        .container {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="añadirParrafo()">Añadir párrafo</button>
+    <button onclick="insertarParrafo()">Insertar párrafo</button>
+    <button onclick="reemplazarParrafo()">Reemplazar párrafo</button>
+    <button onclick="borrarParrafo()">Borrar párrafo</button>
+    <button onclick="clonarDiv()">Clonar div</button>
+
+    <div class="container">
+        <p>Este es mi primer párrafo</p>
+    </div>
+
+    <script>
+        function añadirParrafo() {
+            var nuevoParrafo = document.createElement("p");
+            nuevoParrafo.textContent = "Párrafo añadido";
+            var container = document.querySelector(".container");
+            container.appendChild(nuevoParrafo);
+        }
+
+        function insertarParrafo() {
+            var primerParrafo = document.querySelector(".container p");
+            var nuevoParrafo = document.createElement("p");
+            nuevoParrafo.textContent = "Párrafo insertado";
+            var container = document.querySelector(".container");
+            container.insertBefore(nuevoParrafo, primerParrafo.nextSibling);
+        }
+
+        function reemplazarParrafo() {
+            var segundoParrafo = document.querySelector(".container p:nth-of-type(2)");
+            segundoParrafo.textContent = "Párrafo reemplazado";
+        }
+
+        function borrarParrafo() {
+            var segundoParrafo = document.querySelector(".container p:nth-of-type(2)");
+            segundoParrafo.remove();
+        }
+
+        function clonarDiv() {
+            var container = document.querySelector(".container");
+            var clon = container.cloneNode(true);
+            document.body.appendChild(clon);
+        }
+    </script>
+</body>
+</html>

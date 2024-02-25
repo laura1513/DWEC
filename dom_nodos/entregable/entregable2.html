@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación de lista de animales</title>
+</head>
+<body>
+    <ul id="listaAnimales">
+        <li>Perro</li>
+        <li>Gato</li>
+        <li>León</li>
+    </ul>
+
+    <button onclick="añadirAnimal()">Añadir animal</button>
+    <button onclick="insertarAnimal()">Insertar animal</button>
+    <button onclick="reemplazarAnimal()">Reemplazar animal</button>
+    <button onclick="crearSublistaConDOM()">Crear Sublista dentro de león</button>
+
+    <script>
+        function añadirAnimal() {
+            var lista = document.getElementById("listaAnimales");
+            var nuevoAnimal = prompt("Introduce el nombre del animal a añadir:");
+            var nuevoElemento = document.createElement("li");
+            nuevoElemento.textContent = nuevoAnimal;
+            lista.appendChild(nuevoElemento);
+        }
+
+        function insertarAnimal() {
+            var lista = document.getElementById("listaAnimales");
+            var primerElemento = lista.firstElementChild;
+            var nuevoAnimal = prompt("Introduce el nombre del animal a insertar:");
+            var nuevoElemento = document.createElement("li");
+            nuevoElemento.textContent = nuevoAnimal;
+            lista.insertBefore(nuevoElemento, primerElemento);
+        }
+
+        function reemplazarAnimal() {
+            var lista = document.getElementById("listaAnimales");
+            var segundoElemento = lista.children[1];
+            var nuevoAnimal = prompt("Introduce el nombre del animal a reemplazar:");
+            segundoElemento.textContent = nuevoAnimal;
+        }
+
+        function crearSublistaConDOM() {
+            var leon = document.querySelector("#listaAnimales li:nth-child(3)");
+            var sublista = document.createElement("ul");
+            var nuevoElemento1 = document.createElement("li");
+            var nuevoElemento2 = document.createElement("li");
+            nuevoElemento1.textContent = "Carne";
+            nuevoElemento2.textContent = "Agua";
+            sublista.appendChild(nuevoElemento1);
+            sublista.appendChild(nuevoElemento2);
+            leon.appendChild(sublista);
+        }
+    </script>
+</body>
+</html>
